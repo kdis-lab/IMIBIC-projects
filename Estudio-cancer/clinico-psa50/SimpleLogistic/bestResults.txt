@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 9
+Attributes: SRSF5 SRSF1 U2AF1 U4 NOVA1 MAGOH SF3BTV2 CA150 SRSF9 
+Average AUC: 1.0
+
+
+Seed: 2
+Number of atts: 8
+Attributes: SRSF5 SRSF1 U4 NOVA1 MAGOH SF3BTV2 CA150 ESRP1 
+Average AUC: 1.0
+
+
+Seed: 3
+Number of atts: 10
+Attributes: U2AF2 SRM160 SRSF1 U6ATAC SKIP U4 NOVA1 MAGOH CA150 SF3BTV2 
+Average AUC: 1.0
+
+

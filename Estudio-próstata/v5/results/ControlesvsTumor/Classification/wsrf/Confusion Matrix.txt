@@ -1,0 +1,3 @@
+   BT  T class.error
+BT  6  6        0.50
+T   4 72        0.05

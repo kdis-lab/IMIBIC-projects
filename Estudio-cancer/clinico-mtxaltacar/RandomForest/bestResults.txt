@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 1
+Attributes: TIA1 
+Average AUC: 0.8927203065134101
+
+
+Seed: 2
+Number of atts: 6
+Attributes: FBP11 SF3BTV2 SRSF6 SAM68TV1 U12 U4ATAC 
+Average AUC: 0.8888888888888887
+
+
+Seed: 3
+Number of atts: 5
+Attributes: U2 SRSF6 SAM68TV1 U12 U4ATAC 
+Average AUC: 0.9003831417624523
+
+

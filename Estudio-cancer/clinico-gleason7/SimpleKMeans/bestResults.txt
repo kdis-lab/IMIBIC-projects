@@ -1,0 +1,3 @@
+Number of atts: 6
+Attributes: U4ATAC U6 TRA2A SRSF1 SAM68TV1 U2AF2 
+Average AUC: 0.8063973063973064

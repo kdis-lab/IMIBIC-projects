@@ -1,0 +1,7 @@
+Number of atts: 9
+Attributes: U12 U5 CA150 SRSF4 SF3BTV2 U11 SND1 RAVER1 SF3BTV1 
+Incorrect: 3.0
+
+ID: 7, True class: G2, Assigned class: G3
+ID: 12, True class: G2, Assigned class: G3
+ID: 17, True class: G3, Assigned class: G2

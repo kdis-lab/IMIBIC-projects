@@ -1,0 +1,3 @@
+Number of atts: 4
+Attributes: RAVER1 U6ATAC TIA1 CA150 
+Average AUC: 0.7710144927536232

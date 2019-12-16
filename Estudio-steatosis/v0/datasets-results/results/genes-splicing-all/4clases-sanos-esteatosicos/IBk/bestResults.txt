@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 2
+Attributes: RBM22 SRSF6 
+Average AUC: 0.8198471786833855
+
+
+Seed: 2
+Number of atts: 2
+Attributes: RBM22 SRSF6 
+Average AUC: 0.8198471786833855
+
+
+Seed: 3
+Number of atts: 2
+Attributes: RBM22 SRSF6 
+Average AUC: 0.8198471786833855
+
+

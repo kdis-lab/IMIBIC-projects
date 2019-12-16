@@ -1,0 +1,14 @@
+Algorithm	Execution	CUGBP	ESRP1	FBP11	PRP8	RAVER1	RBM22	RBM3	SAM68TV1	SC35	SF3BTV1	SF3BTV2	SND1	SRM160	SRSF1	SRSF3	SRSF4	SRSF5	SRSF9	TRA2B	U12	U2	U2AF1	U2AF2	U4	U4ATAC	U6	U6ATAC	AUC
+SimpleLogistic	1	1			1	1	1					1			1					1		1					1	1	0.858
+	2										1	1	1	1								1			1		1		0.839
+	3	1	1	1			1					1	1	1								1		1			1	1	0.854
+IBk	1		1			1		1					1			1				1	1				1	1	1		0.983
+	2		1			1		1					1			1				1	1				1	1	1		0.983
+	3		1			1		1					1			1				1	1				1	1	1		0.983
+RandomForest	1								1																		1	1	0.877
+	2								1																		1	1	0.874
+	3								1		1																1	1	0.885
+HierarchicalClusterer	1					1	1	1						1				1	1			1	1				1	1	0.879
+SimpleKMeans	1				1	1				1			1				1	1				1		1			1		0.858
+
+Average		0.182	0.364	0.091	0.182	0.545	0.273	0.364	0.273	0.091	0.182	0.273	0.545	0.273	0.091	0.273	0.091	0.182	0.091	0.364	0.273	0.455	0.091	0.182	0.364	0.273	1.000	0.545

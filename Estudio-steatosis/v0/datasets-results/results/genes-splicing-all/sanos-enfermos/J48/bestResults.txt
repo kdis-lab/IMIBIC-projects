@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 4
+Attributes: SAM68TV1 PTB U6 SRM160 
+Average AUC: 0.8993055555555556
+
+
+Seed: 2
+Number of atts: 4
+Attributes: SAM68TV1 PTB U6 SRM160 
+Average AUC: 0.8993055555555556
+
+
+Seed: 3
+Number of atts: 4
+Attributes: SAM68TV1 PTB U6 SRM160 
+Average AUC: 0.8993055555555556
+
+

@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 5
+Attributes: RBM45 U4 PTB U6ATAC SRM160 
+Average AUC: 0.9600694444444444
+
+
+Seed: 2
+Number of atts: 7
+Attributes: U1 RBM22 PTB SRM160 U6ATAC U6 SRSF1 
+Average AUC: 0.9479166666666665
+
+
+Seed: 3
+Number of atts: 7
+Attributes: RBM3 RBM22 PTB SRM160 U6ATAC U6 CUGBP 
+Average AUC: 0.953125
+
+

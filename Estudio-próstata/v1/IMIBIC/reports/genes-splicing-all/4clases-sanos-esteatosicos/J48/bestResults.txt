@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 6
+Attributes: SRSF4 U1 U6ATAC RBM45 RBM22 U2 
+Average AUC: 0.8551379278487142
+
+
+Seed: 2
+Number of atts: 6
+Attributes: SRSF4 U1 U6ATAC RBM45 RBM22 U2 
+Average AUC: 0.8551379278487142
+
+
+Seed: 3
+Number of atts: 6
+Attributes: SRSF4 U1 U6ATAC RBM45 RBM22 U2 
+Average AUC: 0.8551379278487142
+
+

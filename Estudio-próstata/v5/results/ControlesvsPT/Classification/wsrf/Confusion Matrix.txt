@@ -1,0 +1,3 @@
+   BT PT class.error
+BT  6  6        0.50
+PT  1 48        0.02

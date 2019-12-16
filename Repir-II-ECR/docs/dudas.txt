@@ -1,0 +1,214 @@
+Datos demográficos
+//////////////////
+
+1- Rango de peso admitido
+
+0.5 <= Peso <= 5? -- ok
+
+2- Rango de semana de gestación admitido
+
+25 <= Semanas <= 42 -- ok
+
+Datos visita
+/////////////////
+
+- IMC tiene 47 valores perdidos. No hay ningun caso que podamos reutilizar para recalcular o la talla o el peso a partir del IMC.
+
+  * ¿Otra forma de poder derivar el IMC? ---No, dicho por Monzerrat
+
+- Peso, tiene 38 valores perdidos. Habria que ver si se pueden recalcular a partir del filtrado glomerular
+
+  No vale la pena, dicho por Monserrat
+
+- Talla, tiene 42 valores perdidos. Es posible que sean del ultimo año.
+
+   * Hay 2 casos que tiene FG por Filtrado_Glomerular_Cistatina
+     
+   ¿Alguna manera de calcular la talla a partir de este Fg?
+
+Se deben valorar eliminar
+
+- SC tiene 1348 valores perdidos (16.5%)
+
+- Perimetro_cefalico, tiene en total 7746 valores perdidos, lo que representa el 95% del total de datos. 
+
+  ¿ Se debería eliminar? Pienso que si,..
+
+  Mirar en los menores de 2 años
+
+- BUN tiene 1245 valores perdidos (15.3%)
+
+  Se calcula a partir de la Urea. Jesús lo arreglará
+
+- Urea tiene 254 valores perdidos (3%)
+
+- Filtrado_glomerular_Schwartz tiene 1337 valores perdidos (16%)
+
+Antes del 2011 se utilizaba otra fórmula
+
+- desea_Filtrado_Glomerular_Cistatina tiene 105 valores perdidos (1%)
+
+- Cistatina tiene 4442 valores perdidos (54.6%)
+
+- Filtrado_Glomerular_Cistatina tiene 5235 (64.4%)
+
+- Desea_Filtrado_Glomerular_otro_metodo tiene 108 valores perdidos (1.3%)
+
+- Filtrado_Glomerular_otro_metodo tiene 7120 valores perdidos (87.6%)
+
+- Existen 1197 valores perdidos de Filtrado_glomerular (FG) que es la variable de mayor interés, es decir
+que en 1197 visitas de pacientes el dato de FG no se calculó por ninguna de las tres variantes que el sistema recoge (Schwartz, Cistatina y por
+otro método)
+
+  * De estos 1197 hay 1164 registros que tienen el peso y la talla, por lo que pudieramos calcular el FG por la fórmula de Schwartz, ¿no?.
+  * Quedarían 33 casos en los que el FG es desconocido pero que tampoco se pueden calcular porque no tienen peso o talla
+
+- Existen tres formas diferentes de calcular el FG (Schwartz, Cistatina y por otro método), y como hablamos el otro día el estadío varía respecto
+a los rangos de edad. Lo que no me queda claro es si estos métodos de cálculo tienen el mismo rango, es decir el método de Schwartz da
+valores entre digamos 0 y 200, pero cuál es el posible rango del FG si se calcula mediante Cistatina u otro método, ¿coincide con el Schwartz?.
+
+Es que si no es así, estamos midiendo FG con diferentes rangos y distribuciones, y lo peor es que en un mismo paciente entre visitas puede cambiar el método de cálculo de FG.
+
+- ¿El estadio según el rango de edad, coincide para cuando se calcula con Cistatina y por otro método?, es que en el excel solo se
+refiere a los estadíos según la fórmula de Schwartz...
+
+Criterios de calidad. Graficar a lo largo del tiempo
+////////////////////////
+
+- HTA tiene 49 valores perdidos
+
+- PAS tiene 178 valores perdidos (2%)
+
+- PAD tiene 177 valores perdidos (2%)
+
+- HTo tiene 169 valores perdidos (2%)
+
+- Hb tiene 76 valores perdidos
+
+- Ferritina tiene 1623 valores perdidos (19.9%)
+
+- Indice_saturacion_transferrina tiene 2707 valores perdidos (33%)
+
+- Ca tiene 47 valores perdidos
+
+- P tiene 85 valores perdidos
+
+- PTH tiene 593 valores perdidos (7.3%)
+
+- Metodo_PTH tiene 700 valores perdidos (8%)
+
+- 25-OH tiene 2650 valores perdidos. (32%)
+
+//Analizar esta. Se espera encontrar más cambios en el porcent
+
+- Na tiene 55 valores perdidos
+
+- k tiene 55 valores perdidos
+
+- HCO3 tiene 749 valores perdidos (9%)
+
+- Proteinuria tiene 66 valores perdidos
+
+El profesional que no lo ha realizado
+
+- Valor_proteinuria tiene 4391 valores perdidos (54%)
+
+Valorar eliminar, dicho por Monzerrat
+
+- Metodo_proteinuria tiene 4385 valores perdidos (54%)
+
+Valorar eliminar
+
+- Microalbuminuria tiene 252 valores perdidos (3%)
+
+- Valor_Microalbuminuria tiene 4787 valores perdidos (58.9%)
+
+valorar eliminar
+
+- Metodo_Microalbuminuria tiene 4793 valores perdidos (59%)
+
+valorar eliminar
+   
+   
+Datos Tratamientos
+////////////////////////////
+
+- Estatina tiene 5 valores perdidos
+
+- Quelantes_fosforo tiene solo 5 valores perdidos
+
+- Quelantes Calcio tiene 5928 valores perdidos (mas del 73%). 
+
+  * ¿Eliminar?
+
+- Quelantes_libres_calcio tiene 5938 valores perdidos
+  
+ * ¿Eliminar?
+
+- Toma_Vitamina_D tiene 1185 valores perdidos (mas del 14%)
+
+Se espera encontrar cambios a lo largo del tiempo
+
+- Fe solo tiene 5 valores perdidos
+
+- EPO solo tiene 4 valores peridos
+
+- Bicarbonato solo tiene 4 valores perdidos
+
+- Resinas_intercambio tiene 5 valores perdidos
+
+- Cloruro_Na solo tiene 7 valores perdidos
+
+- HGH, sin valores perdidos. Todo ok
+
+- Acido_folico solo tiene 3 valores perdidos
+
+- Alopurinol solo tiene 2 valores perdidos
+
+- Sonda_nasogastrica solo tiene 5 valores perdidos
+
+- Suplementos_nutricionales solo tiene 3 valores perdidos
+
+- Fluorhidrocortisona solo tiene 3 valores perdidos
+
+- Hipotensores solo tiene 7 valores perdidos
+
+- Antiproteinuricos solo tiene 3 valores perdidos
+
+- IECA tiene 5468 valores perdidos (mas del 67%)
+
+- ARA tiene 5484 valores perdidos (mas del 67%)
+
+- Aporte_calcio tiene 437 valores perdidos (5%)
+
+
+Datos cambios
+/////////////////////////
+
+- ¿Cuál es el objetivo de esto? Por qué no se consideró los cambios en cada visita?
+
+-  Inicio_IRT tiene 24 valores perdidos, pero se sabe a priori que tienen que tener el valor No, ya que el resto tiene Si, y cada Si tiene una fecha asignada
+
+- Fecha_Inicio_IRT tiene 771 valores omitidos, pero está bien, porque es un campo que solo se activa si ponen Si en Inicio_IRT
+
+- Perdida_seguimiento tiene 15 valores perdidos, pero estos deben ser No, ya que el resto tiene Si y fecha asociada
+
+- Fecha_Perdida_seguimiento tiene 941 valores omitidos, pero está bien, porque es un campo que solo se activa si ponen Si en Perdida_Seguimiento
+
+- Traslado_centro tiene 15 valores perdidos, pero estos deben ser No, ya que el resto tiene Si y fecha asociada
+
+valorar eliminar
+
+- Fecha_traslado_centro tiene 621 valores omitidos, pero está bien, porque es un campo que solo se activa si ponen Si en Traslado_centro
+
+- Fallecimiento tiene 80 valores perdidos, pero estos deben ser No, ya que el resto tiene Si y fecha asociada
+
+- Fecha_fallecimiento tiene 1067 valores omitidos, pero está bien, porque es un campo que solo se activa si ponen Si en Fallecimiento
+
+- Recuperacion_funcion tiene 82 valores perdidos, pero estos deben ser No, ya que el resto tiene Si y fecha asociada
+
+- Fecha_recuperacion_funcion tiene 898 valores omitidos, pero está bien, porque es un campo que solo se activa si ponen Si en Recuperacion_funcion
+
+- Perdida_funcion tiene 95 valores perdidos, pero estos deben ser No, ya que el resto tiene Si y fecha asociada
+
+- Fecha_perdida_funcion tiene 948 valores omitidos, pero esta bien, porque es un campo que solo se activa si ponen Si en Perdida_funcion

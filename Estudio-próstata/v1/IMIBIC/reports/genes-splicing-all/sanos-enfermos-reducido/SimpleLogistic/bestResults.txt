@@ -1,0 +1,56 @@
+Seed: 1
+Number of atts: 4
+Attributes: ESRP2 SC35 U6 PTB 
+Average AUC: 0.9097222222222223
+
+Class 0 :
+-1.37 + 
+[ESRP2] * 2.26 +
+[PTB] * -3.57 +
+[SC35] * -1.22 +
+[U6] * 3.36
+
+Class 1 :
+1.37 + 
+[ESRP2] * -2.26 +
+[PTB] * 3.57 +
+[SC35] * 1.22 +
+[U6] * -3.36
+
+
+Seed: 2
+Number of atts: 3
+Attributes: PTB U6 U2AF2 
+Average AUC: 0.9166666666666665
+
+Class 0 :
+-1.17 + 
+[U6] * 2.12
+
+Class 1 :
+1.17 + 
+[U6] * -2.12
+
+
+Seed: 3
+Number of atts: 6
+Attributes: U2AF2 U2 PTB U4ATAC U6 ESRP2 
+Average AUC: 0.9444444444444444
+
+Class 0 :
+-1.97 + 
+[ESRP2] * 2.4  +
+[PTB] * -6.37 +
+[U2] * -4.32 +
+[U4ATAC] * 33.67 +
+[U6] * 5.85
+
+Class 1 :
+1.97 + 
+[ESRP2] * -2.4 +
+[PTB] * 6.37 +
+[U2] * 4.32 +
+[U4ATAC] * -33.67 +
+[U6] * -5.85
+
+

@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 6
+Attributes: SRSF5 SC35 RBM3 RAVER1 MAGOH PSF 
+Average AUC: 0.8642857142857142
+
+
+Seed: 2
+Number of atts: 6
+Attributes: SRSF5 SC35 RBM3 RAVER1 MAGOH PSF 
+Average AUC: 0.8642857142857142
+
+
+Seed: 3
+Number of atts: 6
+Attributes: SRSF5 SC35 RBM3 RAVER1 MAGOH PSF 
+Average AUC: 0.8642857142857142
+
+

@@ -1,0 +1,14 @@
+Algorithm	Execution	CA150	CUGBP	ESRP1	ESRP2	FBP11	MAGOH	NOVA1	PRP8	PSF	PTB	RBM17	RBM22	RBM3	RBM45	SAM68TV1	SND1	SRSF1	SRSF10	SRSF4	SRSF5	SRSF9	U1	U11	U12	U2AF1	U4	U6	U6ATAC	AUC
+SimpleLogistic	1				1		1	1		1				1	1	1	1	1		1			1		1			1		0.865
+	2			1	1		1									1	1	1	1		1		1		1			1	1	0.920
+	3		1				1									1	1						1		1		1			0.875
+IBk	1	1							1							1				1										0.920
+	2	1							1							1				1										0.920
+	3	1							1							1				1										0.920
+RandomForest	1	1														1							1	1		1		1	1	0.800
+	2		1	1	1								1			1	1											1	1	0.809
+	3		1	1	1							1	1			1														0.838
+HierarchicalClusterer	1					1					1		1	1		1				1		1	1		1					0.846
+SimpleKMeans	1						1									1		1	1											0.808
+
+Average		0.364	0.273	0.273	0.364	0.091	0.364	0.091	0.273	0.091	0.091	0.091	0.273	0.182	0.091	1.000	0.364	0.273	0.182	0.455	0.091	0.091	0.455	0.091	0.364	0.091	0.091	0.364	0.273

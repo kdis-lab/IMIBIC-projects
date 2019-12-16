@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<labels xmlns="http://mulan.sourceforge.net/labels">
+<label name="MTX"> </label>
+<label name="MTXOSEA"> </label>
+<label name="MTXALTACARG"> </label>
+<label name="PSA>50"> </label>
+<label name="Gleason>7"> </label>
+<label name="gleason>8"> </label>
+<label name="extraprost"> </label>
+<label name="invperinueral"> </label>
+<label name="respuestapsa7meses"> </label>
+<label name="Resistencia"> </label>
+<label name="Metformina"> </label>
+<label name="DLP"> </label>
+<label name="DM"> </label>
+</labels>

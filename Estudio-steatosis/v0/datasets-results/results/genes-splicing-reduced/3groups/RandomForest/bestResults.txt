@@ -1,0 +1,15 @@
+Seed 1:
+Number of atts: 7
+Attributes: RBM3 CUGBP U6ATAC SRSF4 RAVER1 TRA2A SND1
+Average AUC: 1.0
+
+Seed 2:
+Number of atts: 7
+Attributes: RBM3 U2AF1 U6ATAC SRSF4 RAVER1 TRA2A CUGBP
+Average AUC: 0.99921875
+
+
+Seed 3:
+Number of atts: 7
+Attributes: RBM3 CUGBP U6ATAC SRSF4 RAVER1 TRA2A SND1
+SND1 AUC: 0.9982421875

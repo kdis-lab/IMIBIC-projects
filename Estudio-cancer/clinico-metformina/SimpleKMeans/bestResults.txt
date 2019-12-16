@@ -1,0 +1,3 @@
+Number of atts: 5
+Attributes: CA150 RBM22 RAVER1 RBM17 TIA1 
+Average AUC: 0.7999999999999999

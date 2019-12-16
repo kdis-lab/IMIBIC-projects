@@ -1,0 +1,10 @@
+P1- Tenemos una población de pacientes que tienen tumor neuroendocrino. De esta misma población, tenemos 35 muestras controles (tejidos normales) y 33 muestras de tejidos tumorales.
+
+P2- Tenemos otra población con tan solo 5 muestras de tejidos normales.
+
+Análisis
+////////////////
+
+1- Tejidos normales vs tejidos tumorales en la población P1
+2- Tejidos tumorales de P1 vs tejidos normales de P2
+3- Tejidos normales de P1 vs tejidos normales de P2

@@ -1,0 +1,19 @@
+Seed 1:
+Number of atts: 3
+Attributes: FB11 RBM22 ESRP2 
+Average AUC: 0.84375
+
+Seed 2: 
+Number of atts: 3
+Attributes: FB11 RBM22 ESRP2 
+Average AUC: 0.84375
+
+Seed 3:
+Number of atts: 3
+Attributes: FB11 RBM22 ESRP2 
+Average AUC: 0.84375
+
+
+
+
+

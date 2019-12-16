@@ -1,0 +1,3 @@
+Number of atts: 6
+Attributes: SRSF1 SND1 U4 TIA1 PSF SF3BTV2 
+Average AUC: 0.757703081232493

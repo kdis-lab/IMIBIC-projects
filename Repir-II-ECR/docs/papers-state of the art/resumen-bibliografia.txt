@@ -1,0 +1,376 @@
+1- EFFICIENCY OF DATA MINING TECHNIQUES FOR PREDICTING KIDNEY DISEASE
+
+The paper proposes new algorithm Improved Hybrid Fuzzy C-Means (IHFCM) which is an improvisation of FCM with Euclidean distances to predict kidney diseases in patients
+
+Clasificación, no longitudinal
+
+2- PREDICT CHRONIC KIDNEY DISEASE USING DATA MINING ALGORITHMS IN HADOOP
+
+In this paper, to predict or detect the chronic kidney disease , KNN (K-nearest neighbor) and SVM (Support Vector Machine) data mining algorithms are used.
+
+Clasificación, no longitudinal
+
+3- A novel method for predicting kidney stone type using ensemble learning
+
+Advanced data mining techniques such as classification can help in the early prediction of this disease and reduce its incidence and associated costs.
+
+Various data mining algorithms such as the Bayesian model, different types of Decision Trees, Artificial Neural Networks, and Rule-based classifiers were used in these models. We also proposed four models based on ensemble learning to improve the accuracy of each learning algorithm. In addition, a novel technique for combining individual classifiers in ensemble learning was proposed. In this technique, for each individual classifier, a weight is assigned based on our proposed genetic algorithm based method.
+
+Classification, no longitudinal
+
+4- Survey on Prediction of Chronic Kidney Disease Using Data Mining Classification Techniques and Feature Selection
+
+The objective of this work is to analyse and predict chronic kidney disease (CKD) by discovering the hidden pattern of the relationship that is directly related with CKD by using feature selection and data mining classification techniques like k-nearest neighbor (KNN), artificial neural network (ANN), decision tree.
+
+Classification, no longitudinal
+
+5- Comparing Three Data Mining Methods to Predict Kidney Transplant Survival
+
+To detect factors effective in predicting
+
+the three models, C5.0 algorithm was the top model with high validity that confirms its strength in
+predicting survival. The most effective kidney transplant survival factors were detected in this study;
+therefore, duration of transplant survival (year) can be determined considering the regulations set for
+a new sample with specific characteristics.
+
+Classification, no longitudinal
+
+6- Review of Chronic Kidney Disease based on Data Mining Techniques
+
+Classification
+
+7- Literature-related discovery and innovation: Chronic kidney disease
+
+Classification, no longitudinal
+
+8- Predicting Chronic Kidney Failure Disease Using Data Mining Techniques
+
+Kidney failure disease is being observed as a serious challenge to the medical field with its impact on a massive population of the world. Devoid of symptoms, kidney diseases are often identified too late when dialysis is needed urgently. Advanced data mining technologies can help provide alternatives to handle this situation by discovering hidden patterns and relationships in medical
+data. The objective of this research work is to predict kidney disease by using multiple machine learning algorithms that are Support Vector Machine (SVM), Multilayer Perceptron (MLP), Decision Tree (C4.5), Bayesian Network (BN) and K-Nearest Neighbour (K-NN). The aim of this work is to compare those algorithms and define the most efficient one(s) on the basis of multiple criteria. The database
+used is “Chronic Kidney Disease” implemented on the WEKA platform. From the experimental results, it is observed that MLP and C4.5 have the best rates. However, when compared with Receiver Operating Characteristic (ROC) curve, C4.5 appears to be the most efficient.
+
+9- Going Deep: The Role of Neural Networks for Renal Survival and Beyond
+
+Classification, no longitudinal
+
+10- Data Mining for Chronic Kidney Disease Prediction
+
+Data mining and analytics techniques can be used for predicting CKD by utilizing historical patient’s data and diagnosis records. In this research, predictive analytics techniques such as Decision Trees, Logistic Regression, Naive Bayes, and Artificial Neural Networks are used for predicting CKD.
+
+11- DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks
+
+This paper proposes a very different approach to survival analysis, DeepHit, that uses a deep neural network to learn the distribution of survival times directly.
+
+Hola Montserrat,
+
+Gracias por pasarme estos papers, ya algunos los había visto en el estudio bibliográfico que tuve que hacer.
+
+Estos artículos tienen varias cosas que no se ajustarían muy bien al problema que nosotros estamos tratando. Me explico:
+
+1- Todos son artículos que tratan con técnicas clásicas de data mining. Quizás para el problema que trataron particularmente funcionan, pero en caso de que algunas de estas técnicas (SVM, C4.5, kNN, Naive Bayes, Multi-layer Perceptron, etc) se apliquen al problema que tenemos nosotros se estaría cometiendo un ERROR METODOLÓGICO considerable.
+
+Estas técnicas no están diseñadas para ser utilizadas con datos longitudinales, es decir son técnicas que considerarán cada timestep de paciente como una registro completamente independiente, esto en estadística es un problema conocido y por eso es que se deben aplicar métodos multi-nivel o longitudinales sobre datos como los de REPIR. Por lo tanto sería incorrecto utilizar este tipo de técnica en la base de datos que se tiene actualemente.
+
+2- Todos los artículos que he visto tratan el problema Chronic Kidney Diagnosis desde el punto de vista de una tarea de clasificación, es decir tratan de predecir a partir de variables predictoras (algunas coinciden con las que actualmente utilizamos) si el paciente tiene o no deficiencia renal.
+
+En nuestro caso, no es un tarea de clasificación, sino una tarea de regresión, porque estamos tratando de predecir el siguiente valor de filtrado glomerular que es un valor numérico.
+
+3- Sobre lo que me dices "Me llama la atención que en casi todos hacen un análisis de acuracy o performance del modelo con diferentes parámetros estandar (sensibilidad, etc...) "
+
+precisamente esto es porque analizan los problemas como clasificación y no regresión. De ahí que en esos trabajos pueden calcular métricas de evaluación como sensibilidad, especificidad, AUC, etc. En nuestro caso al ser un problema de regresión lo más que puedes utilizar son métricas asociadas el error en la predicción (MAE, RMSE, Log-cosh, etc). En la gráfica que se muestra en el documento que os mandé se muestra el error cometido en la predicción en el eje Y.
+
+4- Sobre esto que me preguntas "y me parece entender que lo hacen sobre su propia base de datos reservando un grupo de pacientes para ello. Nosotros también podríamos obtener esos datos?"
+
+Desde un inicio se ha utilizado para validar el modelo un procedimiento de cross-validation. A lo que se refieren los autores es precisamente al conjunto de datos que separan del entrenamiento del modelo para poder medir la capacidad de generalización del modelo.
+
+Esto lo hemos hecho siempre, si ves la gráfica de las curvas de aprendizaje que puse en el documento que os mandé hay dos curvas, una asociada al error en la predicción sobre datos de entrenamiento y otra sobre datos de tests (estos datos el modelo nunca los ha visto). Las curvas mostraron que el modelo desarrollado logra reducir el error de predicción tanto en datos de entrenamiento como en datos de test.
+
+Repasando ahora los documentos que me has mandado, veo que lo que hemos hecho parece correcto y tiene novedad, hasta donde mi conocimiento puede llegar. Por ejemplo:
+
+1- Tratamos el problema como un problema longitudinal de regresión, cosa que en los papers de la literatura no he visto.
+
+2- Tratamos el problema como un problema sequence-to-sequence, cosa que en la literatura no he visto. Al tratarlo de esta manera podemos predecir a partir de los datos longitudinales de los pacientes tantos valores de Filtrado_glomerular queramos en el futuro.
+
+3- Ninguno de los papers que hemos visto utiliza técnicas de Deep Learning para estudiar el problema de predicción de la evolución del Filtrado_glomerular.
+
+Los dos papers que se titulan "Going Deep: The Role of Neural Networks for Renal Survival and Beyond" y "DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks" es cierto que utilizan alguna que otra red neurnal pero sobre el problema de modelado de análisis de supervivencia que es un poco distinto al nuestro.
+
+
+/////////////////////////////////////////
+
+Hola Montserrat
+
+Te respondo brevemente ya que he podido mirar por encima los papers que me mandaste.
+
+Lo primero es que en efecto, excepto el último que me pasaste, aún los datasets teniendo características longitudinales no la explotan. El paper “Predictive abilities of machine learning...” lo que hace a grandes rasgos es concluir que la efectividad en la predicción de los modelos tanto estadísticos como de machine learning dependen de las características de los datos. Pero esto en sí no es un resultado novedoso ya que en en matemáticas e IA se sabe que la efectividad de los modelos varía según la características de los datos. De hecho hay un teorema muy famoso que dice en palabras resumidas que “no existe un modelo que sea el mejor para todos los posibles problemas”. También en este paper se puede ver el hecho de que a pesar de ser longitudinal el dataset, siguen evaluando técnicas no longitudinales. En este sentido, en los resultados que te pasé últimos se confirmó que nuestro modelo longitudinal supera a aquellos modelos que no tienen en cuenta la dimensión tiempo.
+
+El paper que tiene que ver con big data terminan aplicando análisis de texto para extraer características a partir de los textos escritos por los médicos en las historias clínicas.
+
+El paper relacionado con clustering, según entendí utilizan un kmean para detectar algunos profiles y de paso detectar algunas características relevantes que luego se utilizan para predecir la adecuación o no de una terapia, pero desde un punto de vista de clasificación.
+
+En resumen, algo que sigo viendo común en todos los papers es que tratan problemas de clasificación, en específico tratan de predecir si en un tiempo x puede haber un evento y. Pero recuerda que nuestro problema original no es un problema de clasificación, sino de regresión, donde se intenta predecir un valor numérico, en nuestro caso el FG.
+
+Por último, el último paper que me pasaste está más relacionado con el trabajo nuestro. En este caso sí que tienen en cuenta la característica longitudinal de los datos. Además utilizan una recurrente neutral network para predecir el AKI, también desde un punto de vista de clasificación. A partir de aquí podemos evidenciar la utilidad que pueden tener las redes neuronales para resolver diferentes tipos de problemas en datos longitudinales. Aún así, la arquitectura neuronal de este modelo es muy diferente al nuestro, y resuelve un problema distinto.
+
+Todos estos trabajos, incluyendo a los que anteriormente me habías pasado, están muy bien y serán de mucha utilidad a la hora de describir el estado del arte en el paper que hagamos de revista.
+
+Creo que nuestro trabajo sigue teniendo novedad en el sentido que no he visto hasta ahora que se haya propuesto un modelo longitudinal multivariante que te permita predecir el FG con tantos años quieras en el futuro.
+
+
+///////////////////////
+
+Hoy he estado estudiándome el paper que me dejaste, "DeepHit: A deep
+learning approach to survival analysis with competing risks", y he
+entendido bastante bien la matemática y metodología que tiene por detrás
+el paper; la arquitectura de la red que proponen coincide en parte con
+una que hemos publicado recientemente en la revista IJNS, pero claro
+nosotros en ese momento lo orientamos a otro problema completamente
+distinto.
+
+Del paper es cierto que los autores hacen una comparación con otros
+modelos clásicos de análisis de supervivencia, lo cual es relevante. Lo
+que esperé encontrar en el paper fue lo que hablamos de detectar cuáles
+son los factores de riesgo, es decir cuáles son las covariables que
+hacen que el modelo se comparte de una manera o de otra. Y eso en el
+paper no se toca.
+
+Los autores lo que hacen es una red que predice el tiempo que falta para
+que en el paciente ocurra un evento (digamos la muerte), y a este evento
+se le llama Risk. Lo que pasa es que al mismo tiempo los autores
+analizan que la red también pueda predecir varios eventos, por ejemplo
+que el paciente caiga en diálisis pero a la vez sufra una enfermedad
+cardiovascular, y a esto es a lo que denominan Competing Risks, porque
+son eventos (risks) que deben ser modelados simulataneamente y pueden
+competir entre ellos, pero esto no se refiere a la determinación de
+factores de riesgos.
+
+Mientras leía el paper, he analizado que es cierto que el problema
+original que teníamos y hablamos en su momento, es decir el de predecir
+FG, pudiera haberse planteado inicialmente de una forma más directa como
+un problema de análisis de supervivencia. Es decir, en ese caso ya no
+predeciríamos FG sino el tiempo restante hasta caer por ejemplo en
+diálisis, o algún otro evento de interés en los pacientes, claro que se
+pueda calcular a partir de los datos que se tienen. Creo que esto
+pudiera ser una línea de trabajo futuro interesante.
+
+Entonces, sigue quedando pendiente cómo determinar realmente los
+factores de riesgo, es decir las covariables existentes en la bd,
+causantes y que expliquen porqué un niño mejora o empeora su estado.
+
+Un saludo
+
+Oscar
+
+//////////////////////
+
+Artificial Intelligence in Nephrology: Core Concepts, Clinical Applications, and Perspectives
+
+Section "The Learning Process"
+
+"The first step of the training is to select a proper architecture for the network9: an adequate number of hidden layers and an appropriate number of neurons in each layer have to be chosen" ---> nosotros hemos hecho esto, luego de haber diseñado la arquitectura LSTM encoder-decoder que seguiriía la red, le ajustamos los hiperparámetros mediante una optimización bayesiana.
+
+- "Data have to be randomly split into a training batch and a testing batch." ---Sí precisamente nosotros hemos seguido un proceso de validación para la construcción del modelo, en este caso hemos adoptado un validación Forward cross validation debido a las caracterñisticas longitudinales de los datos. Luego de haber detectado cuál es la mejor configuración entonces la red neuronal se entrenó con todos los datos existentes.
+
+Section What Is Deep Learning?
+
+- Nuestro modelo es de este tipo, es decir deep learning, pero de los llamadados Long Short Term memory que se puede utilizar cuando está en juego el factor tiempo.
+
+-OJO, en esta sección se restringe el deep learning a los modelos CNN, sin embargo esto está mal, deep learning es mucho más que eso.
+
+Section "What Are the Main Limits and Disadvantages of ANNs?"
+
+- Lo que se dice en esta sección es cierto, son desventajas que suelen tener este tipo de modelos computacionales.
+
+- Sin embargo en este punto "A direct consequence of this “black box” behavior is that it is impossible to predict how a small variation in the inputs will affect the prediction capabilities of a network.", podemos decir que en nuestro caso hemos tratado de solventar esta desventaja desarrollando un procedimiento que mide la importancia en la predicción de cada una de las variables. Esto lo puedes ver en la última sección que aparece en el documento de análsis de datos que te envíe.
+
+- "Therefore, neural networks should preferentially be used on large and complex data sets when simpler linear methods do not provide accurate results"  ---> esta conclusión está muy bien y pudiera servir para justificar porqué hemos utilizado deep learning. En nuestro caso el dataset es complejo, no solo por la carcaterítica longitudinal, si no también por la cantidad de variables y la cantidad de datos. Por otra parte, el hecho de que exista una relación no lineal entre el filtrado glomerular y las otras variables hace que ciertos modelos clásicos no funcionen del todo bien, y por eso modelos de deep learning pueden obtener mejores resultados en estos casos.
+
+- Sobre el paper que hacen referencia de predicción de FG, lo he buscado y la parece que sí, hacen una red feed fowrward para predecir FG, pero la verdad es que resumen todo en dos párrafos, a tal punto que no puedo decir si se parece en algo a lo que nostros hemos propuesto.
+
+
+
+////////////////////////////////
+
+
+
+Hola Montserrat, perdona que no responda inmediatamente, pero es que estoy satudaro con varias cosas.
+
+Respondo entre líneas
+On 16/9/19 10:35, Montserrat Anton Gamero wrote:
+> Hola Oscar, 
+> he revisado alguna bibliografía derivada del artículo de la predicción del FG en poliquistosis (donde efectivamente apenas definen o explican la metodología). También hay una editorial y un manuscrito sobre la necesidad de predecir la evolución del FG en niños con enfermedad renal crónica y especialmente su llegada a situación terminal o End-stage. En este artículo realizan el estudio en unas cohortes ya conocidas y aunque la metodología que utilizan para mí es tecnicamente compleja, entiendo que utilizan metodos de regresión y curvas de supervivencia clásicas. 
+>
+> Sobre todo esto me surgen estas cuestiones:
+> - Nos ayuda para justificar claramente la utilidad y pertinencia de nuestro trabajo (necesidad clínica de predecir el FG y su evolución)
+No se si es una pregunta o una afirmación. De todos modos, he mirado los papers que adjuntaste y creo que sí, que se evidencia que el trabajo que se ha hecho en este proyecto es pertinente y necesario.
+> - Podemos decir que nuestro método "es mejor" o aporta más ventajas frente a los clásicos??? Se que lo hemos hablado y es reiterativo pero es una parte importante para defender la validez de nuestro trabajo. Argumentos técnicos para defender nuestro método
+
+En esta parte, a mi entender el problema se puede atacar desde dos perspectivas, la clásica no-longitudinal y la longitudinal (de ahí que envié dos gráficas comparativas). El problema con los métodos de regresión no longitudinales es que no tienen en cuenta esa característica de los datos, y por lo tanto consideran cada visita de un paciente como un registro independiente, no considerando así la evolución en el tiempo como un factor predictivo, ni la correlación existente entre las observaciones pertenecientes a un paciente.
+
+Por ejemplo, en el paper [1] mencionan varias cosas:
+
+- "The longitudinal data scenario in  particular offers many nuances and challenges unlike those in univariate response modeling.  This is because in longitudinal data, the response for a given subject is measured repeatedly over time. Hence any optimization function that involves the conditional mean of the  response must also take into account the dependence in the response values for a given subject. Furthermore, nonlinear relationships between features and the response may involve  time."
+
+También en [2], dice:
+
+- "In longitudinal studies the observations of one subject over time are not  independent of each other, and therefore it is necessary to apply special statistical  techniques, which take into account the fact that the repeated observations of each  subject are correlated."
+
+Estas afirmaciones indican que los métodos clásicos de regresión (por ejemplo el conocido linear regression) no se puede utilizar tal cuál en un problema longitudinal. Claro, al final se pudiera aplicar, pero realmente estos métodos no tienen en cuenta las características que hacen que los datos  sean longitudinales.
+
+Ahora bien, pasando a los métodos de regresión clásico longitudinales, nos encontramos con esto que dice en [1] (resumiendo):
+
+- "An effective way to approach longitudinal data is through what is called the marginal  model. The marginal model provides a flexible means for estimating  mean time-profiles without requiring a distributional model for the response, requiring  instead only an assumption regarding the mean and the covariance. However, these models typically are linear  combination of features and time, and in most cases, linear functions can be very restrictive, and
+therefore various generalizations have been proposed to make the model more flexible and less  susceptible to model misspecification."
+
+Aquí se evidencia que los métodos antiguos longitudinales se restringen a explotar relaciones lineales en los datos. Para resolver esto entonces se han propuesto otros métodos como generalized additive  models y time-varying coefficient models. Pero según [1], sucede lo siguiente:
+
+- "Although these models are more flexible  compared with linear models, unless specified explicitly, these models do not allow for nonlinear interactions among multiple features or non-linear interactions of multiple features
+and time"
+
+Todas estas desventajas y limitaciones que tienen los modelos clásicos (tanto no-longitudinales (es decir transversales) como los longitudinales), ha hecho que en los últimos años se le preste una atención especial a la aplicación de métodos de machine learning para el estudio de problemas longitudinales; ejemplo de ello son [1,3,4,5]. Los métodos de machine learning pueden resolver el problema de detección de relaciones no lineales, además de presentar una mayor generalización ante conjuntos de datos de gran tamaño. (según he visto el dataset de REPIR-II se pudiera considerar un dataset de un tamaño medio-alto en el campo de biomedicina).
+
+Por último, tanto los métodos clásicos transversales, los clásicos longitudinales, así como los basados en machine learning que existen hasta el momento, se han limitado comúmente a, dado un paciente nunca antes visto, predecir el siguiente valor de FG. Sin embargo, el desarrollo de modelos predictivos que permita, dado un paciente, predecir tantos valores de FG en el futuro como se quiera no está muy estudiado. Es importante notar que, cualquier modelo, tanto transversal como longitudinal, se puede ajustar para que prediga varios valores de FG, pero esto conlleva a que tengas que construir un modelo diferente por cada año de interés, lo cual es ineficiente y costoso, y además acarrea aun más error en la predicción. Por otra parte, no siempre se tienen datos que te permitan llegar a construir un modelo para el año X, por ejemplo año 5. Es decir que si alguien desarrolla uno de estos métodos, y estima que siempre va a predecir hasta 5 años, entonces tendrá que construir 5 modelos, donde cada uno le entregue información al otro (especie de una cadena), pero siempre y cuando dispongas de datos en los 5 años. Por lo tanto, si quisieras predecir para el año 6, entonces ya la solución no serviría.
+
+De ahí la novedad de nuestro trabajo que lo podemos resumir en los siguientes puntos:
+
+1- Se utiliza un modelo de deep learning que permite la construcción de un modelo con un aceptable ratio de error sobre datos nunca antes visto, es decir que el modelo tiene un poder de generalización aceptable.
+
+2- El modelo puede predecir múltiples valores de FG. Tantos valores de FG en el futuro como se quieran, aun cuando no se dispongan de las covariables existentes en esos años. Esta arquitectura (que se llama encoder-decoder y viene del campo del procesamiento del lenguaje natural) es novedosa y no la he visto antes aplicada a este problema de predicción de FG.
+
+3- Una de las principales ventajas de utilizar deep learning es el poder que tienen estos tipos de modelos para modelar relaciones no lineales de alto grado.
+
+He tratado de resumir las principales cosas y que pueden ayudar a confeccionar la presentación. Creo que con todo esto pudieramos justificar el desarrollo del método, y el porqué se pudiera considerar novedoso.
+
+Referencias
+
+[1] Pande, A., Li, L., Rajeswaran, J., Ehrlinger, J., Kogalur, U. B., Blackstone, E. H., & Ishwaran, H. (2017). Boosted multivariate trees for longitudinal data. Machine learning, 106(2), 277-305.
+
+[2] Twisk, J. W. (2013). Applied longitudinal data analysis for epidemiology: a practical guide. cambridge university press.
+
+[3] Sela, R. J., & Simonoff, J. S. (2012). RE-EM trees: a data mining approach for longitudinal and clustered data. Machine learning, 86(2), 169-207.
+
+[4] Kristiaan Pelckmans, Hong-Li Zeng, Support Vector Machines for Longitudinal Analysis. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+
+[5] Adler, W., & Lausen, B. (2009). Classification of Longitudinal Data Using Tree-Based Ensemble Methods. Ulmer Informatik-Berichte, 6.
+
+> - Habría posibilidad de mostrar gráficamente las diferencias entre el FG real y el predicted como nos enseñas en las gráficas que nos has mandado con un paciente pero en toda la cohorte?? A modo de media y algun parámetro de dispersión /DS o rango intercuartílico???)
+
+Uhm, pudiera ser.. la cuestión es que hay mucha variación en cuanto a la cantidad de visitas que tienen los pacientes, donde la mayor cantidad está sobre las 2 o tres visitas, creo. Habría que definir bien cuál es la cohorte que se quiere mostrar, ¿ alguna idea?. Por ejemplo, pacientes con 8-10, o más visitas son pocos. Quizás podríamos quedarnos con aquellos que tienen 5 o más visitas, no lo se.
+> esa curva es muy ilustrativa para el cínico. Podríamos mostrar la que predice el modelo y la que tuvieron en el año 2018 cuyos datos no participaron en el modelo?
+No entiendo... los que participaron en el 2018 solo tendrían un valor de FG, no?. También no se si tenga estos datos, tendría que preguntarle a Jesús, que al sistema ya no tengo acceso.
+
+> - Habitualmente la forma clásica de valorar el ajuste del modelo (FG predicted) frente al real (es decir, la accuracy de 2 métodos) es mediante el Bland Altman (representa la gráfica de la media de las dos medidas frente a la diferencia de las mismas) con intervalo de confianza o con el coefciente de relación intraclases
+No sabía esto, primera vez que lo oigo, debe ser que es muy usado en biomedicina. Yo nunca lo he usado.
+
+> - Tenemos capacidad para evaluar si el modelo predice mejor o peor según la diferente etiología o estadio de enfermedad renal o edad del paciente o tiempo de seguimiento (número de FG previos conocidos). Estos datos podrían reforzar la validez del modelo para una vez confirmado empezar a analizar por grupos cual sería la evolución peor o mejor
+
+Esto creo que es más desde el punto de vista análisis clínico, yo me pierdo. En el documento que te envíe anteriormente, la última parte trata de calcular la importancia (tanto de sobre estimar como under estimar) de las covariables. No se si a partir de esto puedan hacer ese análisis.
+
+Otra solución es que el modelo se encuentra disponible en el servidor, y ya está integrado con el sistema REPIR-II que lo ha hecho Jesús, de tal manera que los especialistas pueden ir midiendo cosas de interés clínico como estas que mencionas. Si fuera muy engorroso ir paciente por paciente viendo la predicción que hace el modelo, Jesús pudiera extraer el conjunto de pacientes de interés y se le pasaría al modelo de manera offline.
+> - Por último, una duda: nuestro modelo sería aplicable a un paciente nuevo que entra ahora en el registro y cumplimentamos los datos de la primera visita? Podríamos predecir su FG????
+> Siento toda esta disertación pero me da la sensación que es ahora cuando podemos empezar a sacar provecho o trabajar con el modelo...
+
+Si te refieres al primer FG de la primer visita, NO, este debe ser calculado mediante las fórmulas convencionales. El futuro FG de su 2da visita si puede ser predicho.
+
+Un saludo
+
+Oscar
+> Muchas gracias por adelantado
+> Montse
+
+
+
+*/*************************************
+Hola Marta, perdona por la demora,
+
+
+Respondo entre líneas
+
+
+On 1/10/19 15:38, Melgosa Hijosa.Marta wrote:
+>
+> ​Hola Oscar. Soy Marta Melgosa, la otra coordinadora del REPIR II con Montse. Como ya te ha comentado, tenemos que presentar dos sesiones, una en el Congreso de la Sociedad de Nefrología ahora, el día 7, de 30 minutos y una comunicación , más corta en Venecia, en inglés, de 5 minutos.
+>
+> Estoy preparando la larga porque seré yo la que la presente y , dentro de que mi descripción del método va a intentar ser lo más sencilla posible , sin meterme en muchos detalles técnicos porque no quiero meter la pata, tengo unas cuantas dudas con respecto a 3 gráficas que te mando en un word adjunto.
+>
+>
+> En la gráfica 21, de la importancia de las variables en la predicción, el color sólo refleja el peso que tiene la variable en la predicción ( azul más peso, verde intermedio, rojo menos...) o indica algo sobre la característica de la variable ?
+
+
+Sí, el color solo refleja el peso (importancia o impacto) que tiene cada covariable en la predicción del FG, esto se calculo mediante un método que se llama Permutation Importance. En su momento puse esa escala de colores, que va desde azul fuerte variables de más peso, hasta rojo fuerte variables de menos peso. El color no está relacionado con las características de las variables.
+
+
+Adjunto el fichero con los valores de importancias positivas (2ra fila) y negativas (3ra fila) de donde generé la gráfica, por si quisiera generarla de otra manera con otro software que se vea mejor. En caso de que queramos solo mostrar la importancia global, entonces deberían sumarse los valores absolutos de cada fila significando esto la importancia de la variable independientemente de si tiende a sobreestimar (positiva) o underestimate (negativa) los FG futuros.
+
+
+> En la figura 20, qué representa la línea de abscisas? Entiendo que la línea azul son el grupo del 80% de los pacientes sobre el que se construye el modelo y entiendo que conforme se va repitiendo y ajustando el error disminuye pero en el de prueba , en el que el modelo ya está más depurado, el error es mayor.... Creo que no lo he entendido bien
+
+A esta gráfica le falta información, aunque parte de la respuesta está al comienzo de la página 18 del documento de análisis que hice un momento, es cierto que está confusa. Trataré de explicarme.
+
+
+1- El eje Y es el valor de la función de coste utilizada para entrenar el modelo, que en nuestro caso fue la sumatoria de log-cosh obtenido por cada instancia del conjunto de datos; dicha función de costo se explica brevemente en la página 16.
+
+
+Brevemente, un modelo para ser entrenado le hace falta tener una función de error que le permita ir viendo cuánto se está equivocando y de ahí ir minizando ese error, que en el caso de las redes neuronales como las de nosotros utilizan el método de gradiente descendiente para ir disminuyendo este error.
+
+
+Por lo tanto, el título del eje Y es "función de coste". El título de la gráfica debería ser "Curva de aprendizaje del modelo" o "Errores en los conjunto de entrenamiento y test mientras se construye el modelo". La línea azul representa el valor de esa función de coste en el conjunto de entrenamiento (datos a partir de los cuales el modelo aprende), y la línea naranja el valor de esa función de coste en el conjunto de test (datos no vistos por el  modelo).
+
+
+2- El eje X, representa la cantidad de epochs que dejamos el modelo se entrene. Un epoch representa cuando el algoritmo finaliza una pasada completa sobre todo los datos de entrenamiento. A partir de aquí el algoritmo comprueba su error sobre datos conocidos (entrenamiento) y sobre los datos no conocidos (test). Una vez hecho esto, el algoritmo continúa con el próximo epoch, de nuevo reajustando los pesos de la red y haciendo otra pasada sobre el conjunto de entrenamiento, y así sucesivamente hasta que, en nuestro caso, se completan 50 epochs.
+
+
+Entonces, este tipo de gráficas se utilizan en IA con varios objetivos. El más importante es ver hasta que punto se puede entrenar el modelo sin llegar a hacer un sobreaprendizaje. Ocurre un sobreaprendizaje cuando el modelo memoriza muy bien los datos de entrenamiento pero tiene un performance muy pobre sobre los datos de prueba. Por eso es que en la gráfica se ve que el modelo disminuye el error tanto en training como en test, pero llega un momento a partir del epoch  40 (un ejemplo) que la disminución en el test es poca o se va haciendo más grande con respecto a la obtenida en el training (variance problem), y por lo tanto lo más conveniente es parar el aprendizaje para evitar caer en overfitting.
+
+
+Es importante explicar que estos 50 epochs se hacen por cada fold execution, y lo que se muestra en la gráfica es el promedio de estos 50 epochs a lo largo de todos los fold executions. Nosotros utilizamos un Walk Forward Cross-Validation (WFCV), que viene explicado en el segundo párrafo de la sección 2.2.1.
+
+
+Un proceso de WFCV realiza los  siguientes pasos:
+
+
+(I) se entrena el modelo con los datos conocidos hasta el timestep t y se predice el  valor de Filtrado_glomerular en el timestep t+1;
+
+(II) se calcula el error cometido en la predicción;
+(III) se comienza de nuevo en el paso (I) haciendo t=t+1.
+
+
+Este tipo de validación hace que inicialmente el modelo se entrene y pruebe en más datos (ya que todos los pacientes tienen al menos una visita), mientras que los últimos modelos se van a probar en conjuntos de datos más pequeños (ya que son mucho menos los pacientes que tienen, por ejemplo, de 8 visitas en adelante).
+
+
+Por último, es importante decir que el WFCV solo se utiliza para hayar una configuración "óptima" de los hiperparámetros que controlan al modelo. Una vez encontrado un conjunto "bueno" de hyperparameters, el modelo se debe entrenar con todos los datos existentes.
+
+
+>
+> En la figura siguiente: qué significa RMSE? Hay un valor de " significación" ( como ocurre con la p en estadistica clásica?). Los modelos con los que comparas el nuestro, son también algoritmos de deep learning ? O son modelos de estadística clásica? 
+
+RMSE es root mean squared error y es una medida que se utiliza mucho en problemas de regresión para ver la efectividad de un modelo en la predicción.
+
+
+Es importante aclarar que RMSE solo se utilizó para mostrar cuánto se equivoca el modelo. Sin embargo para entrenar el modelo se utilizó un log-cosh, que es una función con otras propiedades más efectivas para entrenar redes neuronales. Por ejemplo, log-cosh es  convexa, más suave en el punto de mínimo (esto hace que disminuya el gradiente) y menos  sensitiva a outliers que otras funciones de pérdida populares como el error cuadrático. Además, log-cosh es  diferenciable dos veces, y no necesita ningún ajuste de parámetros.
+
+
+"Hay un valor de " significación" ( como ocurre con la p en estadistica clásica?)" esta pregunta no la entiendo bien, pero a priori NO, a partir de un valor de RMSE no se puede sacar un p-value.
+
+
+Los modelos con los que comparamos eran de dos tipos, ahora solo veo que pones una gráfica comparativa, adjunto las dos gráficas por si acaso. Modelos como GLM y Lasso son estadísticos. Los otros modelos son de machine learning, pero no llegan a ser de deep learning. El deep learning es un subarea de machine learning. El modelo MLP es una red neuronal pero no es deep.
+
+
+>
+> Supongo que conforme vaya avanzando me surgirán más dudas  y ya te iré escribiendo. Un saludo y gracias de antemano?
+
+
+Un saludo
+
+
+Oscar
+>
+>
+> "Este mensaje, o sus anexos, pueden contener información confidencial, en especial datos de carácter personal, y se dirigen exclusivamente al destinatario del mismo que está obligado al secreto profesional respecto de la información y los datos contenidos en el mensaje. Si usted lo ha recibido por error, por favor, comuníquenoslo por este medio y proceda a destruirlo o borrarlo, y en todo caso absténgase de utilizar, reproducir, alterar, archivar o comunicar a terceros el presente mensaje y/o ficheros anexos, pudiendo incurrir, en caso de llevar a cabo tales acciones, en responsabilidades legales. En cualquier caso, la reproducción o comunicación a terceros de la información contenida en el presente mensaje o en sus anexos debe estar previamente autorizada por el emisor. El emisor no garantiza la integridad, rapidez o seguridad del presente correo, ni se responsabiliza de posibles perjuicios derivados de la captura, incorporaciones de virus o cualesquiera otras manipulaciones efectuadas por terceros."
+>
+>
+>
+
+
+  
+

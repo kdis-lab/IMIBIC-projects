@@ -1,0 +1,18 @@
+Seed 1:
+Number of atts: 5
+Attributes: SF3BTV2 SND1 RBM45 RAVER1 TRA2A
+Average AUC: 0.9821428571428572
+
+Seed 2: 
+Number of atts: 5
+Attributes: SF3BTV2 SND1 RBM45 RAVER1 TRA2A
+Average AUC: 0.9821428571428572
+
+Seed: 3
+Number of atts: 5
+Attributes: SF3BTV2 SND1 RBM45 RAVER1 TRA2A 
+Average AUC: 0.9821428571428572
+
+
+
+

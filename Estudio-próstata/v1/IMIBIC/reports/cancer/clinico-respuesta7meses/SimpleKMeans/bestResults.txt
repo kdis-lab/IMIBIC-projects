@@ -1,0 +1,3 @@
+Number of atts: 2
+Attributes: SRSF6 TRA2A 
+Average AUC: 0.7563025210084033

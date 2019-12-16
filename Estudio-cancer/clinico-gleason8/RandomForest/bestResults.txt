@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 5
+Attributes: SF3BTV1 ESRP1 SKIP TIA1 TRA2A 
+Average AUC: 0.8637681159420288
+
+
+Seed: 2
+Number of atts: 8
+Attributes: SF3BTV1 RBM45 ESRP1 U2 SKIP SAM68TV1 TIA1 RBM22 
+Average AUC: 0.8594202898550725
+
+
+Seed: 3
+Number of atts: 8
+Attributes: SF3BTV2 ESRP1 SKIP U4ATAC SAM68TV1 RBM22 TIA1 SRSF3 
+Average AUC: 0.855072463768116
+
+

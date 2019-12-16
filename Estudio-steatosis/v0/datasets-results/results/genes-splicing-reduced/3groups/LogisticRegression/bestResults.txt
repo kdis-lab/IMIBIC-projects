@@ -1,0 +1,15 @@
+Seed 1:
+Number of atts: 4
+Attributes: RBM45 RAVER1 TRA2A SRSF1 
+Average AUC: 0.9898437499999999
+
+Seed 2:
+Number of atts: 5
+Attributes: U12 SND1 RBM45 TRA2A SRSF4 
+Average AUC: 0.998046875
+
+Seed 3:
+Number of atts: 5
+Attributes: SND1 RBM45 RAVER1 TRA2A ESRP1 
+Average AUC: 0.993359375
+

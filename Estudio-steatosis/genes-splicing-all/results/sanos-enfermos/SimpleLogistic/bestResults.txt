@@ -1,0 +1,73 @@
+Seed: 1
+Number of atts: 8
+Attributes: SRSF9 PRP8 U2 PSF RBM22 U6ATAC U6 ESRP1 
+Average AUC: 0.9861111111111112
+
+Class 0 :
+-8.38 + 
+[ESRP1] * -9.23 +
+[PRP8] * 4.04 +
+[RBM22] * -5.59 +
+[SRSF9] * 5.34 +
+[U2] * -0.94 +
+[U6] * 19.87
+
+Class 1 :
+8.38 + 
+[ESRP1] * 9.23 +
+[PRP8] * -4.04 +
+[RBM22] * 5.59 +
+[SRSF9] * -5.34 +
+[U2] * 0.94 +
+[U6] * -19.87
+
+
+Seed: 2
+Number of atts: 8
+Attributes: SRSF5 SRSF3 CUGBP ESRP1 U4 PTB U6 U2AF2 
+Average AUC: 0.9791666666666665
+
+
+Class 0 :
+-1.41 + 
+[CUGBP] * 3.23 +
+[ESRP1] * -3.4 +
+[PTB] * -8.05 +
+[SRSF5] * -0.82 +
+[U4] * -2.15 +
+[U6] * 7.9 
+
+Class 1 :
+1.41 + 
+[CUGBP] * -3.23 +
+[ESRP1] * 3.4  +
+[PTB] * 8.05 +
+[SRSF5] * 0.82 +
+[U4] * 2.15 +
+[U6] * -7.9
+
+
+Seed: 3
+Number of atts: 7
+Attributes: CUGBP U4 SC35 SAM68TV1 PTB U6 SRSF6 
+Average AUC: 0.9756944444444444
+
+Class 0 :
+0.37 + 
+[CUGBP] * 3.84 +
+[PTB] * -8.73 +
+[SAM68TV1] * -1.88 +
+[SC35] * -1.27 +
+[U4] * -4.84 +
+[U6] * 5.19
+
+Class 1 :
+-0.37 + 
+[CUGBP] * -3.84 +
+[PTB] * 8.73 +
+[SAM68TV1] * 1.88 +
+[SC35] * 1.27 +
+[U4] * 4.84 +
+[U6] * -5.19
+
+

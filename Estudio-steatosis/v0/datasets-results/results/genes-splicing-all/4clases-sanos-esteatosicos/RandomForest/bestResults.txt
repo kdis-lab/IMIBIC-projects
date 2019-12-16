@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 8
+Attributes: SRSF5 FB11 U1 SRSF6 U6ATAC SRM160 RBM22 ESRP2 
+Average AUC: 0.8354168259550935
+
+
+Seed: 2
+Number of atts: 11
+Attributes: SRSF4 U1 SRSF6 U2 PSF PTB ESRP1 U6ATAC SRM160 RBM22 PRP8 
+Average AUC: 0.831274530417718
+
+
+Seed: 3
+Number of atts: 6
+Attributes: SRSF5 U1 SRSF6 SRM160 RBM22 RAVER1 
+Average AUC: 0.8337287668527157
+
+

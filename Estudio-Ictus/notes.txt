@@ -1,0 +1,5 @@
+1- Identificar las proteinas que son comunes entre los dos grupos. Es decir, caracterizar completamente a la enfermedad, sin dividir a los dos grupos. Pudiera ser mediante algunos tests de significancia, para ver si proteinas que se expresan demasiado en ambos grupos.
+
+2- Identificar grupos de proteinas que distinguen a los dos grupos.
+
+

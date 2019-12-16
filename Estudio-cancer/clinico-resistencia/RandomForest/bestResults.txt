@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 7
+Attributes: SRSF3 SND1 TRA2B TIA1 U6ATAC U6 U5 
+Average AUC: 0.8529411764705881
+
+
+Seed: 2
+Number of atts: 8
+Attributes: U5 SRSF3 NOVA1 TRA2B TIA1 U6ATAC U6 U11 
+Average AUC: 0.8613445378151261
+
+
+Seed: 3
+Number of atts: 7
+Attributes: SRSF3 TRA2B TIA1 SF3BTV2 U6ATAC U6 PSF 
+Average AUC: 0.850140056022409
+
+

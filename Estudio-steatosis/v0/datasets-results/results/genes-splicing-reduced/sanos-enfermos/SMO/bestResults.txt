@@ -1,0 +1,19 @@
+Seed 1:
+Number of atts: 6
+Attributes: U4 RBM45 TIA1 RBM22 U4ATAC U6 
+Average AUC: 0.7222222222222222
+
+
+Seed 2:
+Number of atts: 6
+Attributes: U12 RBM45 TIA1 RBM22 U4ATAC U6 
+Average AUC: 0.7222222222222222
+
+Seed 3:
+Number of atts: 1
+Attributes: U4ATAC 
+Average AUC: 0.5555555555555556
+
+
+
+

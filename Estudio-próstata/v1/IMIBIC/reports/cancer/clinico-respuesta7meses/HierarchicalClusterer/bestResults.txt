@@ -1,0 +1,3 @@
+Number of atts: 6
+Attributes: TRA2B TRA2A RBM22 U12 U6 SND1 
+Average AUC: 0.7801120448179272

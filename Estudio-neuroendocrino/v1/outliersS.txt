@@ -1,0 +1,13 @@
+Se detectó valores atípicos en:
+
+ESRP2
+nSR100
+PSF
+RBM17
+SRSF5
+U11
+U6ATAC
+
+	
+Se elimina el factor U2af1 por tener todos los valores iguales a 0.
+

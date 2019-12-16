@@ -1,0 +1,3 @@
+Number of atts: 3
+Attributes: MAGOH SAM68TV1 SRSF10 
+Average AUC: 0.8076923076923077

@@ -1,0 +1,14 @@
+Algorithm	Execution	CA150	CUGBP	FBP11	PTB	RBM17	RBM3	RBM45	SAM68TV1	SC35	SF3BTV1	SF3BTV2	SND1	SRM160	SRSF1	SRSF3	SRSF6	SRSF9	TIA1	TRA2A	TRA2B	U11	U12	U2	U4ATAC	U5	U6	U6ATAC	AUC
+SimpleLogistic	1	1		1		1	1														1		1		1				0.966
+	2			1			1				1		1	1	1		1	1			1		1		1				0.950
+	3				1			1		1							1			1			1		1	1	1	1	0.950
+IBk	1		1	1												1						1	1			1			0.927
+	2		1	1												1						1	1			1			0.927
+	3		1	1												1						1	1			1			0.927
+RandomForest	1																		1										0.893
+	2			1					1			1					1						1		1				0.889
+	3								1								1						1	1	1				0.900
+HierarchicalClusterer	1																1						1		1	1			0.879
+SimpleKMeans	1																				1		1		1		1		0.879
+
+Average		0.091	0.273	0.545	0.091	0.091	0.182	0.091	0.182	0.091	0.091	0.091	0.091	0.091	0.091	0.273	0.455	0.091	0.091	0.091	0.273	0.273	0.909	0.091	0.636	0.455	0.182	0.091

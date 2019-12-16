@@ -1,0 +1,51 @@
+
+R version 3.4.4 (2018-03-15) -- "Someone to Lean On"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> options(java.parameters = "-Xmx100g")
+> library(rsubgroup)
+Loading required package: rJava
+Loading required package: foreign
+> rm(list = ls())
+> 
+> # path <- "/home/antonio/Escritorio/CARySD/SD/BRCA"
+> # setwd(path)
+> # dataset <- read.csv("discretizaen5all.csv")
+> 
+> datasetT <- read.csv("discretizaen5Ttodo.csv")
+> datasetN <- read.csv("discretizaen5Ntodo.csv")
+> 
+> 
+> dataset <- rbind(datasetT, datasetN)
+> colnames(dataset) <- gsub("\\..*", "", colnames(dataset))
+> 
+> 
+> 
+> 
+> # creating a target binary variable
+> target <- as.target("Class", "T")
+> 
+> #creating a config object for passing to subgroup discovery algorithms
+> namesAtt <- colnames(dataset) 
+> namesAtt <- namesAtt[-length(namesAtt)]
+> config <- new("SDTaskConfig", attributes= namesAtt, qf = "wracc", minsize = 33, k = 500, maxlen = 10)
+> task <- CreateSDTask(source= dataset, target = target, config = config)
+Error in .jcall(provider, "Lorg/vikamine/kernel/data/Ontology;", "getDataset",  : 
+  java.lang.IllegalStateException: java.io.IOException: Duplicate attribute entry for X, read Token[X], line 2350
+Calls: CreateSDTask ... .CreateOntologyForData -> .jcall -> .jcheck -> .Call
+Execution halted

@@ -1,0 +1,3 @@
+Number of atts: 3
+Attributes: ESRP1 RBM22 TIA1 
+Average AUC: 0.8875

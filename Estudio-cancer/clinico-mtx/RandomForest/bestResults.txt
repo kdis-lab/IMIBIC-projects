@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 5
+Attributes: CA150 U11 U6ATAC SAM68TV1 U2AF1 
+Average AUC: 0.7996794871794872
+
+
+Seed: 2
+Number of atts: 7
+Attributes: SND1 ESRP1 RBM22 CUGBP U6ATAC SAM68TV1 ESRP2 
+Average AUC: 0.8092948717948719
+
+
+Seed: 3
+Number of atts: 6
+Attributes: ESRP1 RBM17 RBM22 CUGBP SAM68TV1 ESRP2 
+Average AUC: 0.8381410256410258
+
+

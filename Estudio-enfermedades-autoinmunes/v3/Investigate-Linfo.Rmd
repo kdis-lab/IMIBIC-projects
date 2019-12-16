@@ -1,0 +1,266 @@
+---
+title: 'Principal Component Analysis'
+author: 'Dataset dataset'
+output:
+  word_document: default
+---
+This dataset contains 32 individuals and 44 variables, 1 quantitative variable is considered as illustrative, 9 qualitative variables are considered as illustrative.
+
+- - -
+
+```{r, echo = FALSE}
+load('Workspace.RData')
+```
+### 1. Study of the outliers
+The analysis of the graphs does not detect any outlier.
+
+- - -
+
+### 2. Inertia distribution
+The inertia of the first dimensions shows if there are strong relationships between variables and suggests the number of dimensions that should be studied.
+
+The first two dimensions of PCA express **60.2%** of the total dataset inertia ; that means that 60.2% of the individuals (or variables) cloud total variability is explained by the plane.
+This percentage is relatively high and thus the first plane well represents the data variability.
+This value is strongly greater than the reference value that equals **22.01%**, the variability explained by this plane is thus highly significant
+(the reference value is the 0.95-quantile of the inertia percentages distribution obtained by simulating 1211 data tables of equivalent size on the basis of a normal distribution).
+
+From these observations, it should be better to also interpret the dimensions greater or equal to the third one.
+
+```{r, echo = FALSE, fig.height = 3.5, fig.width = 5.5}
+par(mar = c(2.6, 4.1, 1.1, 2.1))
+barplot(res$eig[,2], names.arg = 1:nrow(res$eig))
+```
+
+**Figure 2 - Decomposition of the total inertia on the components of the PCA**
+
+An estimation of the right number of axis to interpret suggests to restrict the analysis to the description of the first 3 axis.
+These axis present an amount of inertia greater than those obtained by the 0.95-quantile of random distributions (69.31% against 30.86%).
+This observation suggests that only these axis are carrying a real information.
+As a consequence, the description will stand to these axis.
+
+- - -
+
+### 3. Description of the plane 1:2
+
+```{r, echo = FALSE, fig.height = 3.5, fig.width = 5.5}
+drawn <-
+c("2", "14", "27", "16", "35", "32", "28", "31", "33", "34", 
+"12", "15", "29", "4", "6", "17", "30", "11")
+par(mar = c(4.1, 4.1, 1.1, 2.1))
+plot.PCA(res, select = drawn, axes = 1:2, choix = 'ind', invisible = 'quali', title = '', cex = cex)
+```
+
+**Figure 3.1 - Individuals factor map (PCA)**
+*The labeled individuals are those with the higher contribution to the plane construction.*
+
+The Wilks test p-value indicates which variable factors are the best separated on the plane (i.e. which one explain the best the distance between individuals).
+```{r, echo = FALSE, comment = ''}
+wilks.p <-
+structure(c(0.0906027746934939, 0.134108778114916, 0.184078716506727, 
+0.355022669835308, 0.404034685377158, 0.675731200064972, 0.775718900261402, 
+0.87239884785625, 0.928620776272813), .Names = c("Trombosis", 
+"ComplicObstet", "ACAIgG", "ACAIgM", "CMIT", "Sexo", "B2GPl", 
+"dsDNA", "Hta"))
+wilks.p
+```
+The best qualitative variable to illustrate the distance between individuals on this plane is : *Trombosis*.
+
+```
+sample = sample(rownames(res$call$X), length(rownames(res$call$X)))
+res$call$X = res$call$X[sample,]
+res$ind$coord = res$ind$coord[sample[!sample %in% rownames(res$ind.sup$coord)],]
+res$ind.sup$coord = res$ind.sup$coord[sample[sample %in% rownames(res$ind.sup$coord)],]
+drawn <-
+c("2", "14", "27", "16", "35", "32", "28", "31", "33", "34", 
+"12", "15", "29", "4", "6", "17", "30", "11")
+hab <-
+"Trombosis"
+par(mar = c(4.1, 4.1, 1.1, 2.1))
+plotellipses(res, axes = 1:2, invisible = 'quali', select = drawn, keepvar = hab, title = '', cex = cex)
+```
+
+**Figure 3.2 - Individuals factor map (PCA)**
+*The labeled individuals are those with the higher contribution to the plane construction.*
+*The individuals are coloured after their category for the variable* Trombosis.
+
+```{r, echo = FALSE, fig.height = 3.5, fig.width = 5.5}
+drawn <-
+c("U4ata", "SKIP", "SF3BTV2", "SRSF6", "SND1", "SRM160", "PSF", 
+"U6", "SRSF10", "SRSF4", "U5", "SRFSF9", "CA150", "U4", "U1", 
+"ESRP1", "SRSF5", "U2", "TIA1")
+par(mar = c(4.1, 4.1, 1.1, 2.1))
+plot.PCA(res, select = drawn, axes = 1:2, choix = 'var', title = '', cex = cex)
+```
+
+**Figure 3.3 - Variables factor map (PCA)**
+*The variables in black are considered as active whereas those in blue are illustrative.*
+*The labeled variables are those the best shown on the plane.*
+
+```{r, echo = FALSE, fig.height = 3.5, fig.width = 5.5}
+drawn <-
+c("Neutro", "Si", "Unknown", "Unknown", "No", "Neutro", "No", 
+"Neutro", "Si", "Positivo", "Unknown", "Unknown", "Positivo", 
+"Positivo", "Patologico")
+par(mar = c(4.1, 4.1, 1.1, 2.1))
+plot.PCA(res, select = drawn, axes = 1:2, choix = 'ind', invisible = c('ind', 'ind.sup'), title = '', cex = cex)
+```
+
+**Figure 3.4 - Qualitative factor map (PCA)**
+*The labeled factors are those the best shown on the plane.*
+
+* * *
+
+The **dimension 1** opposes individuals such as *28*, *2*, *6* and *11* (to the right of the graph, characterized by a strongly positive coordinate on the axis)
+to individuals such as *35*, *31*, *27*, *33*, *32*, *34* and *29* (to the left of the graph, characterized by a strongly negative coordinate on the axis).
+
+The group in which the individuals *28*, *2*, *6* and *11* stand (characterized by a positive coordinate on the axis) is sharing :
+
+- high values for variables like *SF3BTV2*, *U4*, *U5*, *SRSF5*, *CA150*, *TRA2A*, *U1*, *ESRP1*, *SRFSF9* and *RBM3* (variables are sorted from the strongest).
+- low values for the variables *PSF*, *Edad* and *U4ata* (variables are sorted from the weakest).
+
+The group in which the individuals *35*, *31*, *27*, *33*, *32*, *34* and *29* stand (characterized by a negative coordinate on the axis) is sharing :
+
+- high values for the variables *PSF*, *U4ata*, *SKIP*, *SRSF6*, *U12*, *U6atac* and *SC35* (variables are sorted from the strongest).
+- low values for variables like *RBM3*, *U5*, *U4*, *TRA2A*, *SRSF5*, *SRSF10*, *U11*, *SRFSF9*, *SAM68TV1* and *U2* (variables are sorted from the weakest).
+
+
+* * *
+
+The **dimension 2** opposes individuals such as *28*, *2*, *6* and *11* (to the top of the graph, characterized by a strongly positive coordinate on the axis)
+to individuals such as *14*, *16*, *12* and *15* (to the bottom of the graph, characterized by a strongly negative coordinate on the axis).
+
+The group in which the individuals *28*, *2*, *6* and *11* stand (characterized by a positive coordinate on the axis) is sharing :
+
+- high values for variables like *SF3BTV2*, *U4*, *U5*, *SRSF5*, *CA150*, *TRA2A*, *U1*, *ESRP1*, *SRFSF9* and *RBM3* (variables are sorted from the strongest).
+- low values for the variables *PSF*, *Edad* and *U4ata* (variables are sorted from the weakest).
+
+The group in which the individuals *14*, *16*, *12* and *15* stand (characterized by a negative coordinate on the axis) is sharing :
+
+- high values for the variable *NOVA1*.
+- low values for variables like *TRA2B*, *CA150*, *PSF*, *SKIP*, *U12*, *MAGOH*, *SF3BTV1*, *TIA1*, *U2AF1* and *SRSF6* (variables are sorted from the weakest).
+
+
+- - -
+
+### 4. Description of the dimension 3
+
+```{r, echo = FALSE, fig.height = 3.5, fig.width = 5.5}
+drawn <-
+c("30", "4", "24", "25", "10", "2", "18", "29", "9", "22", "32", 
+"14", "27", "1", "13", "7", "12", "15")
+par(mar = c(4.1, 4.1, 1.1, 2.1))
+plot.PCA(res, select = drawn, axes = 3:4, choix = 'ind', invisible = 'quali', title = '', cex = cex)
+```
+
+**Figure 4.1 - Individuals factor map (PCA)**
+*The labeled individuals are those with the higher contribution to the plane construction.*
+
+The Wilks test p-value indicates which variable factors are the best separated on the plane (i.e. which one explain the best the distance between individuals).
+```{r, echo = FALSE, comment = ''}
+wilks.p <-
+structure(c(0.0441275561718954, 0.153238731901038, 0.26738479289285, 
+0.428448070214572, 0.468063391214566, 0.495842113808656, 0.529701644479667, 
+0.62373682515003, 0.943342131423051), .Names = c("ACAIgM", "Trombosis", 
+"ACAIgG", "ComplicObstet", "B2GPl", "Sexo", "CMIT", "dsDNA", 
+"Hta"))
+wilks.p
+```
+The best qualitative variable to illustrate the distance between individuals on this plane is : *ACAIgM*.
+
+```
+sample = sample(rownames(res$call$X), length(rownames(res$call$X)))
+res$call$X = res$call$X[sample,]
+res$ind$coord = res$ind$coord[sample[!sample %in% rownames(res$ind.sup$coord)],]
+res$ind.sup$coord = res$ind.sup$coord[sample[sample %in% rownames(res$ind.sup$coord)],]
+drawn <-
+c("30", "4", "24", "25", "10", "2", "18", "29", "9", "22", "32", 
+"14", "27", "1", "13", "7", "12", "15")
+hab <-
+"ACAIgM"
+par(mar = c(4.1, 4.1, 1.1, 2.1))
+plotellipses(res, axes = 3:4, invisible = 'quali', select = drawn, keepvar = hab, title = '', cex = cex)
+```
+
+**Figure 4.2 - Individuals factor map (PCA)**
+*The labeled individuals are those with the higher contribution to the plane construction.*
+*The individuals are coloured after their category for the variable* ACAIgM.
+
+```{r, echo = FALSE, fig.height = 3.5, fig.width = 5.5}
+drawn <-
+c("NOVA1", "SRSF1", "ESRP1", "RBM3", "TRA2B", "CA150", "SAM68TV1", 
+"RBM17", "SRM160")
+par(mar = c(4.1, 4.1, 1.1, 2.1))
+plot.PCA(res, select = drawn, axes = 3:4, choix = 'var', title = '', cex = cex)
+```
+
+**Figure 4.3 - Variables factor map (PCA)**
+*The variables in black are considered as active whereas those in blue are illustrative.*
+*The labeled variables are those the best shown on the plane.*
+
+```{r, echo = FALSE, fig.height = 3.5, fig.width = 5.5}
+drawn <-
+c("Neutro", "Unknown", "Negativo", "Negativo", "Normal", "Unknown", 
+"Negativo", "Unknown", "F")
+par(mar = c(4.1, 4.1, 1.1, 2.1))
+plot.PCA(res, select = drawn, axes = 3:4, choix = 'ind', invisible = c('ind', 'ind.sup'), title = '', cex = cex)
+```
+
+**Figure 4.4 - Qualitative factor map (PCA)**
+*The labeled factors are those the best shown on the plane.*
+
+* * *
+
+The **dimension 3** opposes individuals such as *9*, *22*, *13*, *24*, *25* and *7* (to the right of the graph, characterized by a strongly positive coordinate on the axis)
+to individuals such as *18*, *10* and *1* (to the left of the graph, characterized by a strongly negative coordinate on the axis).
+
+The group in which the individuals *9*, *22*, *13*, *24*, *25* and *7* stand (characterized by a positive coordinate on the axis) is sharing :
+
+- high values for the variables *SRSF3*, *TRA2B*, *U2*, *SF3BTV2*, *SRSF5*, *SRFSF9* and *SC35* (variables are sorted from the strongest).
+- low values for the variables *SRSF4*, *CA150* and *SRSF1* (variables are sorted from the weakest).
+
+The group in which the individuals *18*, *10* and *1* stand (characterized by a negative coordinate on the axis) is sharing :
+
+- high values for the variables *ESRP1*, *SRSF1*, *CA150*, *SRM160*, *SRSF4*, *NOVA1* and *U2AF1* (variables are sorted from the strongest).
+
+
+- - -
+
+### 5. Classification
+
+```{r, echo = FALSE}
+res.hcpc = HCPC(res, nb.clust = -1, graph = FALSE)
+```
+
+```{r, echo = FALSE, fig.align = 'center', fig.height = 3.5, fig.width = 5.5}
+drawn <-
+c("2", "14", "27", "16", "35", "32", "28", "31", "33", "34", 
+"12", "15", "29", "4", "6", "17", "30", "11")
+par(mar = c(4.1, 4.1, 1.1, 2.1))
+plot.HCPC(res.hcpc, choice = 'map', draw.tree = FALSE, select = drawn, title = '')
+```
+
+**Figure 5 - Ascending Hierarchical Classification of the individuals.**
+*The classification made on individuals reveals 3 clusters.*
+
+
+The **cluster 1** is made of individuals such as *27*, *29*, *30*, *31*, *32*, *33*, *34* and *35*. This group is characterized by :
+
+- high values for the variables *U4ata*, *SRSF6*, *PSF*, *SKIP*, *U12*, *U6atac* and *SC35* (variables are sorted from the strongest).
+- low values for variables like *CA150*, *TRA2A*, *RBM17*, *RBM3*, *U5*, *SRSF10*, *U4*, *U1*, *SAM68TV1* and *SRSF5* (variables are sorted from the weakest).
+
+The **cluster 2** is made of individuals such as *4*, *12*, *14*, *15*, *16* and *17*. This group is characterized by :
+
+- high values for the variable *NOVA1*.
+- low values for variables like *SRSF4*, *TRA2B*, *SC35*, *SRM160*, *MAGOH*, *PSF*, *U2AF1*, *SKIP*, *SRSF6* and *SF3BTV1* (variables are sorted from the weakest).
+
+The **cluster 3** is made of individuals such as *2*, *6*, *11* and *28*. This group is characterized by :
+
+- high values for variables like *SF3BTV2*, *U4*, *SRSF5*, *SRFSF9*, *U5*, *RBM3*, *U1*, *SRSF10*, *TRA2A* and *SND1* (variables are sorted from the strongest).
+- low values for the variables *U6atac* and *U4ata* (variables are sorted from the weakest).
+
+- - -
+
+## Annexes
+
+
+

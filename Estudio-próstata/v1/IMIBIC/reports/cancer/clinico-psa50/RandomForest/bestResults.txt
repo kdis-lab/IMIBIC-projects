@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 3
+Attributes: CA150 CUGBP U4 
+Average AUC: 0.9019886363636364
+
+
+Seed: 2
+Number of atts: 6
+Attributes: SRSF4 SC35 U4 CA150 CUGBP PSF 
+Average AUC: 0.9090909090909092
+
+
+Seed: 3
+Number of atts: 2
+Attributes: CUGBP U5 
+Average AUC: 0.9034090909090908
+
+

@@ -1,0 +1,10 @@
+    CA150     CUGBP     ESRP1     ESRP2     FBP11     MAGOH     NOVA1    nSR100      PRP8       PSF       PTB    RAVER1 
+        1         8         1         2         5         3         2         1         5         8        11         7 
+    RBM17     RBM22      RBM3     RBM45 SAM68.TV1      SC35   sf3btv1   SF3BTV2      SKIP      SND1    SRM160     SRSF1 
+        4         6         6         5         9         8         3         5         5         7         3         1 
+   SRSF10     SRSF3     SRSF4     SRSF5     SRSF6     SRSF9      TIA1     TRA2A     TRA2B        U1       U11       U12 
+        6         5         5         2         5         5         8         3         7         7         1         4 
+       U2     U2AF1     U2AF2        U4    U4ATAC        U5        U6    U6ATAC 
+        7         2         4         3         6         3         1         1
+
+Se eliminaron los valores que caen más allá del 99 percentil

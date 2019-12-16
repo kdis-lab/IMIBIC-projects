@@ -1,0 +1,16 @@
+Seed 1
+Number of atts: 9
+Attributes: SF3BTV1 SRSF1 RBM45 TIA1 FB11 SC35 U4ATAC U6 ESRP2 
+Average AUC: 0.8854166666666665
+
+Seed 2:
+Number of atts: 8
+Attributes: SRSF4 SRSF1 RBM45 U2AF1 FB11 U4ATAC U6 TIA1 
+Average AUC: 0.8819444444444444
+
+
+Seed 3:
+
+Number of atts: 7
+Attributes: TRA2A NOVA1 RBM45 U11 FB11 U6 U4ATAC 
+Average AUC: 0.875

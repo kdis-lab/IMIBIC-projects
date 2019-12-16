@@ -1,0 +1,10 @@
+He ejecutado los experimentos para buscar la mejor combinación de factores en los 7 escenarios que hemos considerado. Os adjunto un Excel con los resultados, además de un compactado con todas las combinaciones posibles que se encontraron con AUC mayor de 0.75 por cada escenario (todos los resultados están en los ficheros csv). En el Excel solo se reporta la combinación con mayor AUC validado por un 10-fold. Para este estudio solo se tuvo en cuenta a Logistic Regression (LR) y Random Forest (RF) como contraparte. 
+
+Los resultados generales son:
+
+1-	En todos los escenarios, excepto en el escenario “Indices”, LR y RF, utilizando combinación de factores pequeñas, obtienen mejores resultados que cuando se utilizan todas las variables.
+2-	Los factores clínicos están aportando muy poco a la discriminación entre pacientes diabéticos y no diabéticos, tras considerar que:
+2.1-	No hay combinación de factores clínicos que por sí solos den un AUC mayor de 0.75, ni para LR ni RF.
+2.2-	Comparando el escenario “0h+4h” con “Indices+0h+4h”, RF obtiene en el primero un AUC de 0.857, mientras que en el segundo escenario se obtiene un AUC de 0.856. Como vemos los AUC son casi idénticos, y si analizamos las variables finales utilizadas por RF en el 2do escenario realmente todos los factores clínicos se han descartado del modelo. En el caso de LR, se obtiene un resultado muy parecido, LR en “0h+4h” obtiene un AUC de 0.806 con 10 variables de entre 0h y 4h, mientras que en el escenario “Indices+0h+4h” el AUC solo aumenta a 0.807 tras incluir a dos factores clínicos.
+3-	Los factores clínicos más relevantes (aunque realmente no aportan mucho a la construcción de mejores modelos) son HbA1c, glu120 y HIRI.
+4-	Los factores a 0h y 4h seleccionados finalmente en los modelos varían en dependencia del escenario y del  algoritmo considerado, aunque es muy común que aparezcan los factores U4ATAC y RAVER1 a 0h y 4h en los modelos.

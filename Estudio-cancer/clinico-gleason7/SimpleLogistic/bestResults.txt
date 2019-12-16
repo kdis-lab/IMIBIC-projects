@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 8
+Attributes: TIA1 U4ATAC U12 U1 SC35 ESRP2 SAM68TV1 U11 
+Average AUC: 0.8653198653198653
+
+
+Seed: 2
+Number of atts: 7
+Attributes: TIA1 SRM160 U12 SC35 ESRP2 SAM68TV1 U4ATAC 
+Average AUC: 0.8518518518518517
+
+
+Seed: 3
+Number of atts: 7
+Attributes: U12 U2 U6ATAC SRSF1 ESRP2 SAM68TV1 U4ATAC 
+Average AUC: 0.8181818181818182
+
+

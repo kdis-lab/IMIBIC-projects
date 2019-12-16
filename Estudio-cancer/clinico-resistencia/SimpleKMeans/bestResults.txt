@@ -1,0 +1,3 @@
+Number of atts: 6
+Attributes: CA150 SKIP SRM160 MAGOH TIA1 SND1 
+Average AUC: 0.7394957983193278

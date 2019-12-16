@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 3
+Attributes: U4ATAC SRM160 U6 
+Average AUC: 0.6111111111111112
+
+
+Seed: 2
+Number of atts: 1
+Attributes: U4ATAC 
+Average AUC: 0.5555555555555556
+
+
+Seed: 3
+Number of atts: 3
+Attributes: U4ATAC SRM160 U6 
+Average AUC: 0.6111111111111112
+
+

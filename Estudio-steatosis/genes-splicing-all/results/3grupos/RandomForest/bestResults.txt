@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 6
+Attributes: TRA2B U6ATAC SRSF4 RAVER1 TRA2A SND1 
+Average AUC: 1.0
+
+
+Seed: 2
+Number of atts: 7
+Attributes: TRA2B U6ATAC SRSF4 SND1 RBM45 TRA2A RAVER1 
+Average AUC: 1.0
+
+
+Seed: 3
+Number of atts: 7
+Attributes: TRA2B U6ATAC SRSF4 SND1 RBM45 TRA2A RAVER1 
+Average AUC: 1.0
+
+

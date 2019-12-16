@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 7
+Attributes: SRSF6 SF3BTV1 SKIP RBM45 U6ATAC U6 SRM160 
+Average AUC: 0.7621527777777778
+
+
+Seed: 2
+Number of atts: 6
+Attributes: SKIP RBM45 TIA1 RBM22 U4ATAC U6 
+Average AUC: 0.7222222222222222
+
+
+Seed: 3
+Number of atts: 4
+Attributes: RBM22 U4ATAC SRM160 U6 
+Average AUC: 0.7222222222222222
+
+

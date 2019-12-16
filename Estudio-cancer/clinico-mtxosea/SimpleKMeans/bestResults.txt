@@ -1,0 +1,3 @@
+Number of atts: 4
+Attributes: U4 U12 SAM68TV1 U2AF2 
+Average AUC: 0.834733893557423

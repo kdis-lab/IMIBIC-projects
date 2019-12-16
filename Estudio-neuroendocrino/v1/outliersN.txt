@@ -1,0 +1,11 @@
+Se detectó valores atípicos en:
+
+CUGBP
+PRP8
+SRSF9
+U1
+U6ATAC
+
+	
+Se elimina el factor U2af1 por tener todos los valores iguales a 0.
+

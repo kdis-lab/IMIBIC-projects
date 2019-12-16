@@ -1,0 +1,5 @@
+1- Comparación entre las diferentes zonas de los tejidos normales (4 grupos)
+2- Comparación entre los tejidos de tumorales (dos grupos, III vs IV)
+3- Comparación entre tejidos normales vs tumorales (dos grupos)
+4- Comparación entre tejidos normales vs tumorales grupo III (dos grupos)
+5- Comparación entre tejidos normales vs tumorales grupo IV (dos grupos)

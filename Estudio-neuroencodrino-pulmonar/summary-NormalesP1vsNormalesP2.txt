@@ -1,0 +1,13 @@
+No missing values
+
+Outliers (z-score prob=0.98)
+   CA150    CELF4    CUGBP    ESRP1    ESRP2    FBP11    MAGOH    NOVA1   nSR100     PRP8 
+       3        1        2        1        3        2        3        2        4        2 
+     PSF      PTB   RAVER1    RBM17    RBM22     RBM3    RBM45 SAM68TV1     SC35  SF3BTV1 
+       4        2        3        2        2        1        1        2        2        2 
+ SF3BTV2     SKIP     SND1   SRM160    SRSF1   SRSF10    SRSF3    SRSF4    SRSF5    SRSF6 
+       3        3        2        3        2        3        1        3        2        2 
+   SRSF9     TIA1    TRA2A    TRA2B       U1      U11      U12       U2    U2AF1    U2AF2 
+       3        2        1        2        2        2        2        1        2        1 
+      U4   U4atac       U5       U6   U6atac 
+       3        1        4        1        2 

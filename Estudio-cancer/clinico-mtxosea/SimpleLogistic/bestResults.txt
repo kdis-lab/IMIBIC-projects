@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 9
+Attributes: TRA2B PRP8 U11 SND1 U12 U2 SKIP SAM68TV1 SRSF6 
+Average AUC: 0.9187675070028011
+
+
+Seed: 2
+Number of atts: 8
+Attributes: U6 U4ATAC U12 RBM45 U6ATAC TIA1 SAM68TV1 SND1 
+Average AUC: 0.9047619047619048
+
+
+Seed: 3
+Number of atts: 7
+Attributes: SND1 U6 U12 U5 SC35 SAM68TV1 CUGBP 
+Average AUC: 0.9327731092436975
+
+

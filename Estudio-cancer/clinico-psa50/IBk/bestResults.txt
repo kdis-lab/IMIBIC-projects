@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 7
+Attributes: TIA1 U12 SC35 U4 CA150 CUGBP RBM3 
+Average AUC: 0.9772727272727274
+
+
+Seed: 2
+Number of atts: 7
+Attributes: TIA1 U12 SC35 U4 CA150 CUGBP RBM3 
+Average AUC: 0.9772727272727274
+
+
+Seed: 3
+Number of atts: 7
+Attributes: TIA1 U12 SC35 U4 CA150 CUGBP RBM3 
+Average AUC: 0.9772727272727274
+
+

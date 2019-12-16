@@ -1,0 +1,67 @@
+Seed: 1
+Number of atts: 5
+Attributes: RBM3 RBM45 RAVER1 TRA2A PSF 
+Average AUC: 0.996875
+
+Class 0 :
+4.33 + 
+[RAVER1] * -17.3
+
+Class 1 :
+-1.09 + 
+[PSF] * 1.65 +
+[RAVER1] * 5.06 +
+[RBM45] * -2.26 +
+[TRA2A] * -3.39
+
+Class 2 :
+-5.76 + 
+[RBM45] * 2.6  +
+[TRA2A] * 17.81
+
+
+Seed: 2
+Number of atts: 5
+Attributes: U12 SND1 RBM45 TRA2A SRSF4 
+Average AUC: 0.998046875
+
+Class 0 :
+2.98 + 
+[SRSF4] * -8.5
+
+Class 1 :
+0.18 + 
+[RBM45] * -2.36 +
+[SND1] * 4.22 +
+[TRA2A] * -3.49
+
+Class 2 :
+-3.19 + 
+[RBM45] * 2.74 +
+[TRA2A] * 8.7 
+
+
+Seed: 3
+Number of atts: 10
+Attributes: PSF SRSF5 FB11 TRA2B SRSF4 SND1 RBM45 RAVER1 TRA2A SRSF3 
+Average AUC: 0.996875
+
+
+Class 0 :
+4.66 + 
+[RAVER1] * -3.17 +
+[SRSF4] * -5.78 +
+[TRA2B] * -3.61
+
+Class 1 :
+-1.03 + 
+[RBM45] * -2.43 +
+[SND1] * 7.07 +
+[TRA2A] * -3.67
+
+Class 2 :
+-4.39 + 
+[RBM45] * 2.69 +
+[TRA2A] * 12.47
+
+

@@ -1,0 +1,9 @@
+Luego de discretizar de forma no supervisada, mediante equalWitdh, encontrando el mejor número de bin, los siguientes factores fueron removidos por quedarse con un solo rango
+
+1-Ca150
+3- Magoh
+4- NOVA1
+5- RBM3
+6- SRSF5
+7- U11
+8- U12

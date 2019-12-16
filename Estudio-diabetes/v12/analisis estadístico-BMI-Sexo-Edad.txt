@@ -1,0 +1,103 @@
+Los datos se dividieron considerando todos los pacientes y teniendo en cuenta los genes en 0 horas y 4 horas. 
+Se eliminan aquellos pacientes que no tenían datos a 0 o 4 horas en cada estudio, quedando lo siguiente:
+
+0-horas
+-----------
+101 - no diabéticos
+88- diabéticos
+
+4-horas
+-----------
+106- diabéticos
+95- no dibéticos
+
+Se procedió a ejecutar el test de Mann-Whitney-Wilcoxon Test entre los dos grupos en cada caso de estudio dando los siguientes resultados. Para el caso de la variable sexo se procede a ejecutar el test chi-squared para medir el grado de asociación de las variables categóricas sexo y diabetes.
+
+Caso 0-horas
+--------------------
+--------------------
+--------------------
+
+BMI
+W = 3891.5, p-value = 0.1412 (no existen diferencias signficativas en BMI)
+
+Edad
+W = 5008.5, p-value = 0.1324 (no existen diferencias signficativas en edad)
+
+Sexo
+sexo\Diabetes  N  S 
+	     H 87 74
+             M 14 14
+
+Podemos ver que la distruibución de sexo en ambos grupos en bastante parecida.
+
+Pearson's Chi-squared test with Yates' continuity correction
+X-squared = 0.036115, df = 1, p-value = 0.8493  (no existen diferencias significativas en sexo)
+
+Con esto se demuestra que considerando todos los pacientes a 0 horas no había diferencias signficativas en BMI, Edad y Sexo en el nivel de signficación 0.05. Sin embargo si procedemos a calcular las diferencias en los niveles de expresión de los factores "U20h","U40h", "U6ATAC0h", "U50h", "ESRP10h", "SRSF10h" en estos pacientes si que se siguen manteniendo las diferencias signficativas entre los diabéticos y el grupo de control.
+
+U20h
+W = 5437, p-value = 0.00810
+
+U40h
+W = 5294, p-value = 0.02354
+
+U6ATAC0h
+W = 5369, p-value = 0.01372
+
+U50h
+W = 5454, p-value = 0.007122
+
+ESRP10h
+W = 5183, p-value = 0.04899
+
+SRSF10h
+W = 5216, p-value = 0.03972
+
+Caso 4-horas
+--------------------
+--------------------
+--------------------
+
+BMI
+W = 4561.5, p-value = 0.2506 (no hay diferencias significativas)
+
+Edad
+W = 5599, p-value = 0.1708 (no hay diferencias signficativas)
+
+Sexo
+sexo\Diabetes  N  S (se puede observar que las distribuciones son bastantes parecidas)
+             H 91 80
+             M 15 15
+
+Pearson's Chi-squared test with Yates' continuity correction
+X-squared = 0.016187, df = 1, p-value = 0.8988 (no hay diferencias significativas)
+
+Con esto se demuestra que considerando todos los pacientes a 4 horas no habías diferencias signficativas en BMI, Edad y Sexo en el nivel de signficación 0.05. Sin embargo si procedemos a calcular las diferencias en los niveles de expresión de los factores "U44h", "U24h", "U64h", "U6ATAC4h", "U4ATAC4h", "U124h", "NOVA14h", "ESRP14h", "SRSF14h" en estos pacientes si que se siguen manteniendo las diferencias signficativas entre los diabéticos y el grupo de control, excepto en el caso de U24h que el p-value sube a 0.06 (pero si que existen diferencias en el nivel de confianza de 90%). Habría que analizar si en el casi de U2 a 4h existían previamente muchos missing values.
+
+U44h
+W = 6039, p-value = 0.01479
+
+U24h
+W = 5806, p-value = 0.06129
+
+U64h
+W = 6238, p-value = 0.003493
+
+U6ATAC4h
+W = 6502, p-value = 0.0003682
+
+U4ATAC4h
+W = 6853, p-value = 1.002e-05
+
+U124h
+W = 5904, p-value = 0.0349
+
+NOVA14h
+W = 6252, p-value = 0.00313
+
+ESRP14h
+W = 6205, p-value = 0.004503
+
+SRSF14h
+W = 6089, p-value = 0.0105

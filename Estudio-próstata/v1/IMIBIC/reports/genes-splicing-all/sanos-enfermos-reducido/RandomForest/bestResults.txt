@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 3
+Attributes: PTB U6ATAC SRM160 
+Average AUC: 0.9461805555555556
+
+
+Seed: 2
+Number of atts: 6
+Attributes: SND1 PTB SRM160 U6ATAC U6 U2 
+Average AUC: 0.9305555555555556
+
+
+Seed: 3
+Number of atts: 5
+Attributes: TIA1 PTB SRM160 U6ATAC U6 
+Average AUC: 0.9270833333333335
+
+

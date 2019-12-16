@@ -1,0 +1,16 @@
+1- Convertir las bd a mi modo.
+2- Comprobar si la combinacion encontrada antes tb es relevante en estas bd. Discrimina entre controles y cancer, y dsicrimina entre controles, cancert primario y metastasis. Random forest fue lo que se utilizó anteriormente.
+
+RBM3, SF3B1, SRRM1, SRSF3, SRRM4, SFPQ, U2Af2  Nuestra=0.94 TCGA=0.92
+
+/////////
+
+Buenas tardes Óscar, 
+Te recuerdo lo hablado durante la reunión de hoy. Gracias a los análisis anteriores hemos observado que hay una huella molecular de desregulación de factores de splicing característica de cáncer de próstata, que es consistente ya que se cumple en nuestra cohorte de pacientes y en la del TCGA. Sin embargo en ninguna de estas dos cohortes hay pacientes con un cáncer de próstata agresivo (cáncer de próstata resistente a la castración).
+Por tanto el objetivo del siguiente trabajo es determinar si la huella molecular observada es capaz de diferenciar también entre pacientes con cáncer de próstata agresivo y pacientes con cáncer de próstata primario y/o con controles.
+
+Objetivos:
+1. Hallar el AUC de la combinación de RBM3, SF3B1, SRRM1, SRSF3, SRRM4, SFPQ, U2AF2 según el algoritmo Random Forest a la hora de diferenciar pacientes con cáncer de próstata (tanto primario como metastasis) y controles.
+2. Hallar el AUC de la combinación de RBM3, SF3B1, SRRM1, SRSF3, SRRM4, SFPQ, U2AF2 según el algoritmo Random Forest a la hora de diferenciar pacientes con cáncer de próstata primario y controles.
+3. Hallar el AUC de la combinación de RBM3, SF3B1, SRRM1, SRSF3, SRRM4, SFPQ, U2AF2 según el algoritmo Random Forest a la hora de diferenciar pacientes con cáncer de próstata metastásico y controles.
+4. Hallar el AUC de la combinación de RBM3, SF3B1, SRRM1, SRSF3, SRRM4, SFPQ, U2AF2 según el algoritmo Random Forest a la hora de diferenciar pacientes con cáncer de próstata primario y pacientes con cáncer de próstata metastásico.

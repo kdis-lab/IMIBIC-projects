@@ -1,0 +1,18 @@
+#Exclude all the saved keras models
+*.hdf5
+
+#Exclude all the saved caret models
+*.rds
+
+#Exclude the vscode folder
+/vscode/*
+
+#Exclude the pychace folder
+/__pycache__/*
+
+#Exclude the pychace folder
+/.ipynb_checkpoints/*
+
+*.zip
+
+results-comparisonv2.txt

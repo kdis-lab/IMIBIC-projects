@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 3
+Attributes: SRSF1 SF3BTV2 SRSF6 
+Average AUC: 0.9473684210526315
+
+
+Seed: 2
+Number of atts: 5
+Attributes: RBM45 U2 RBM22 RBM17 U2AF2 
+Average AUC: 1.0
+
+
+Seed: 3
+Number of atts: 5
+Attributes: ESRP2 SC35 SRSF1 SF3BTV2 ESRP1 
+Average AUC: 0.9473684210526315
+
+

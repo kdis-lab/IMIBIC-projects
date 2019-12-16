@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 5
+Attributes: U2AF1 SKIP TIA1 SAM68TV1 PSF 
+Average AUC: 0.8893557422969187
+
+
+Seed: 2
+Number of atts: 5
+Attributes: PSF SKIP TIA1 SAM68TV1 U2AF2 
+Average AUC: 0.8683473389355741
+
+
+Seed: 3
+Number of atts: 7
+Attributes: ESRP1 SND1 PSF SC35 TIA1 SAM68TV1 SRSF6 
+Average AUC: 0.8599439775910366
+
+

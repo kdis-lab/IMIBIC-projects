@@ -1,0 +1,2 @@
+  parameter       ROC      Sens      Spec     ROCSD    SensSD   SpecSD
+1      none 0.7610029 0.7730303 0.6103175 0.1334409 0.1470036 0.210139

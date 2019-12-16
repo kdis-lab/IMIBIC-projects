@@ -1,0 +1,4 @@
+Confusion matrix:
+   BT PT class.error
+BT  4  8   0.6666667
+PT  0 49   0.0000000

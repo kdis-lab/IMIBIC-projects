@@ -1,0 +1,6 @@
+Optimized Parameters:
+imputation_method 0.0
+latent_dim 64.0
+epochs 50.0
+batch_size 1
+Optimized loss: 0.05465316406749938

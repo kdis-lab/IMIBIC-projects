@@ -1,0 +1,14 @@
+Algorithm	Execution	CA150	MAGOH	NOVA1	PTB	RBM3	SC35	SND1	SRM160	SRSF4	U11	U12	U2	U4ATAC	U5	nSR100	AUC
+SimpleLogistic	1								1			1		1			1.000
+	2								1			1		1			1.000
+	3					1						1		1			1.000
+IBk	1										1	1		1			1.000
+	2										1	1		1			1.000
+	3										1	1		1			1.000
+RandomForest	1		1		1				1			1		1	1	1	1.000
+	2	1							1	1		1	1	1		1	1.000
+	3			1	1			1	1		1	1		1			1.000
+HierarchicalClusterer	1					1			1		1			1			1.000
+SimpleKMeans	1		1				1				1			1			0.988
+
+Average		0.091	0.182	0.091	0.182	0.182	0.091	0.091	0.545	0.091	0.545	0.818	0.091	1.000	0.091	0.182

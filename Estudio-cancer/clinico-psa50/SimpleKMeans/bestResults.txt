@@ -1,0 +1,3 @@
+Number of atts: 5
+Attributes: PTB U12 U2AF1 CA150 SKIP 
+Average AUC: 0.7869318181818182

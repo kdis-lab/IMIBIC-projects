@@ -1,0 +1,13 @@
+.
+
+- - -
+
+```{r, echo = FALSE}
+load('Workspace.RData')
+```
+### 1. Study of the outliers
+The analysis of the graphs does not detect any outlier.
+
+- - -
+
+### 2. Inertia distribution

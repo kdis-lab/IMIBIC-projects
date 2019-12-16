@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 3
+Attributes: TRA2A SAM68TV1 SRM160 
+Average AUC: 0.7996632996632996
+
+
+Seed: 2
+Number of atts: 7
+Attributes: U6 RAVER1 U5 U6ATAC SRSF1 ESRP2 SAM68TV1 
+Average AUC: 0.7744107744107744
+
+
+Seed: 3
+Number of atts: 1
+Attributes: U6ATAC 
+Average AUC: 0.8198653198653199
+
+

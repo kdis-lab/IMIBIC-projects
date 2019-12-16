@@ -1,0 +1,14 @@
+
+///////////BEST////////////////////
+
+///////////////////////////////
+
+Number of atts: 3
+Attributes: SF3BTV2 U6 U4ATAC 
+Incorrect: 5.0
+
+ID: 1, True class: S, Assigned class: E
+ID: 3, True class: S, Assigned class: E
+ID: 5, True class: S, Assigned class: E
+ID: 8, True class: S, Assigned class: E
+ID: 29, True class: E, Assigned class: S

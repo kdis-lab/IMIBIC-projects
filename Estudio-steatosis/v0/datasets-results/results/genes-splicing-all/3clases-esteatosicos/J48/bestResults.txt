@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 7
+Attributes: MAGOH U6ATAC ESRP1 RBM45 SRSF1 RBM22 RBM3 
+Average AUC: 0.805859375
+
+
+Seed: 2
+Number of atts: 7
+Attributes: MAGOH U6ATAC ESRP1 RBM45 SRSF1 RBM22 RBM3 
+Average AUC: 0.805859375
+
+
+Seed: 3
+Number of atts: 7
+Attributes: MAGOH U6ATAC ESRP1 RBM45 SRSF1 RBM22 RBM3 
+Average AUC: 0.805859375
+
+

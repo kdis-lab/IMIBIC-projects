@@ -1,0 +1,19 @@
+Seed 1:
+Number of atts: 10
+Attributes: ESRP1 ESRP2 SRSF4 SF3BTV2 SND1 U11 RAVER1 TRA2A RBM45 SF3BTV1
+Average AUC: 0.948828125
+
+Seed: 2
+Number of atts: 6
+Attributes: SRSF4 U11 SND1 RAVER1 TRA2A SF3BTV2
+Average AUC: 0.9713169642857142
+
+Seed 3:
+Number of atts: 7
+Attributes: U5 SRSF4 U11 SND1 SF3BTV2 RAVER1 TRA2A
+Average AUC: 0.9715401785714286
+
+
+
+
+

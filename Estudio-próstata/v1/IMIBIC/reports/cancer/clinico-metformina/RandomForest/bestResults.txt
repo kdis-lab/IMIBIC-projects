@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 3
+Attributes: SC35 SF3BTV1 U2AF1 
+Average AUC: 0.93125
+
+
+Seed: 2
+Number of atts: 9
+Attributes: U4ATAC FBP11 RBM45 CUGBP PRP8 U12 SF3BTV1 RBM17 TIA1 
+Average AUC: 0.8645833333333333
+
+
+Seed: 3
+Number of atts: 5
+Attributes: FBP11 SC35 SF3BTV1 RBM17 U2AF1 
+Average AUC: 0.8916666666666666
+
+

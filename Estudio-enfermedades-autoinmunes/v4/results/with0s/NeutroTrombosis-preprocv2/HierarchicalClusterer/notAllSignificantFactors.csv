@@ -1,0 +1,331 @@
+Number-Atts,Number-Significant,Atts,AUC
+8,0,nSR100Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM45Neutro RBM17Neutro TRA2ANeutro FBP11Neutro,0.8666666666666667
+14,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro,0.8666666666666667
+15,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro RBM22Neutro,0.8666666666666667
+10,0,RAVER1Neutro CA150Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro SC35Neutro,0.8333333333333334
+5,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro,0.8333333333333334
+6,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro TRA2ANeutro,0.8333333333333334
+7,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro TRA2ANeutro SF3BTV1Neutro,0.8333333333333334
+8,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro TRA2ANeutro SF3BTV1Neutro SRSF10Neutro,0.8333333333333334
+9,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro TRA2ANeutro SF3BTV1Neutro SRSF10Neutro SRM160Neutro,0.8333333333333334
+10,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro TRA2ANeutro SF3BTV1Neutro SRSF10Neutro SRM160Neutro SRFSF9Neutro,0.8333333333333334
+11,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro TRA2ANeutro SF3BTV1Neutro SRSF10Neutro SRM160Neutro SRFSF9Neutro SRSF4Neutro,0.8333333333333334
+4,0,nSR100Neutro CA150Neutro ESRP1Neutro RAVER1Neutro,0.8333333333333334
+5,0,nSR100Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM45Neutro,0.8333333333333334
+6,0,nSR100Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM45Neutro RBM17Neutro,0.8333333333333334
+7,0,nSR100Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM45Neutro RBM17Neutro TRA2ANeutro,0.8333333333333334
+9,0,nSR100Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM45Neutro RBM17Neutro TRA2ANeutro FBP11Neutro MAGOHNeutro,0.8333333333333334
+16,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro,0.8333333333333334
+17,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRFSF9Neutro,0.8333333333333334
+18,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRFSF9Neutro SAM68TV1Neutro,0.8333333333333334
+19,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro,0.8333333333333334
+20,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro SKIPNeutro,0.8333333333333334
+9,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro SRSF6Neutro,0.8333333333333334
+10,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro,0.8333333333333334
+11,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro TRA2BNeutro,0.8333333333333334
+12,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro TRA2BNeutro U4Neutro,0.8333333333333334
+13,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro TRA2BNeutro U4Neutro U12Neutro,0.8333333333333334
+18,0,TRA2ANeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro NOVA1Neutro SRSF5Neutro FBP11Neutro SAM68TV1Neutro,0.8333333333333334
+19,0,TRA2ANeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro NOVA1Neutro SRSF5Neutro FBP11Neutro SAM68TV1Neutro ESRP2Neutro,0.8333333333333334
+19,0,SRSF5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SND1Neutro RBM3Neutro RBM22Neutro SAM68TV1Neutro,0.8333333333333334
+20,0,SRSF5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SND1Neutro RBM3Neutro RBM22Neutro SAM68TV1Neutro ESRP2Neutro,0.8333333333333334
+21,0,SRSF5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SND1Neutro RBM3Neutro RBM22Neutro SAM68TV1Neutro ESRP2Neutro U1Neutro,0.8333333333333334
+7,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro,0.8333333333333334
+8,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro,0.8333333333333334
+9,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro,0.8333333333333334
+10,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro,0.8333333333333334
+11,0,FBP11Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro CUGBPNeutro U4Neutro SF3BTV1Neutro,0.8333333333333334
+12,0,FBP11Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro CUGBPNeutro U4Neutro SF3BTV1Neutro U1Neutro,0.8333333333333334
+7,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro,0.8333333333333334
+8,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro,0.8333333333333334
+9,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro,0.8333333333333334
+10,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF10Neutro,0.8333333333333334
+11,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF10Neutro RBM3Neutro,0.8333333333333334
+12,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF10Neutro RBM3Neutro SRM160Neutro,0.8333333333333334
+13,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF10Neutro RBM3Neutro SRM160Neutro SRFSF9Neutro,0.8333333333333334
+19,0,SRFSF9Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro UA2F2Neutro SAM68TV1Neutro,0.8333333333333334
+20,0,SRFSF9Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro UA2F2Neutro SAM68TV1Neutro ESRP2Neutro,0.8333333333333334
+21,0,SRFSF9Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro UA2F2Neutro SAM68TV1Neutro ESRP2Neutro MAGOHNeutro,0.8333333333333334
+19,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro SAM68TV1Neutro,0.8333333333333334
+20,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro,0.8333333333333334
+21,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro SRSF4Neutro,0.8333333333333334
+22,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro SRSF4Neutro MAGOHNeutro,0.8333333333333334
+7,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro,0.8333333333333334
+8,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro,0.8333333333333334
+9,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro,0.8333333333333334
+10,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U5Neutro,0.8333333333333334
+11,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U5Neutro SRFSF9Neutro,0.8333333333333334
+15,0,CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro,0.8
+16,0,CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro,0.8
+17,0,CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro,0.8
+18,0,CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro,0.8
+19,0,CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro,0.8
+20,0,CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro ESRP2Neutro,0.8
+21,0,CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro ESRP2Neutro U1Neutro,0.8
+22,0,CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro ESRP2Neutro U1Neutro MAGOHNeutro,0.8
+5,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro,0.8
+6,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro,0.8
+7,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro,0.8
+8,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro U5Neutro,0.8
+9,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro U5Neutro U4Neutro,0.8
+10,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro U5Neutro U4Neutro U2AF1Neutro,0.8
+11,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro U5Neutro U4Neutro U2AF1Neutro SRSF10Neutro,0.8
+12,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro U5Neutro U4Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro,0.8
+13,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro U5Neutro U4Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro U12Neutro,0.8
+14,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro U5Neutro U4Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro U12Neutro ESRP2Neutro,0.8
+15,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro U5Neutro U4Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro U12Neutro ESRP2Neutro U1Neutro,0.8
+16,0,ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SC35Neutro TRA2ANeutro U5Neutro U4Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro U12Neutro ESRP2Neutro U1Neutro SKIPNeutro,0.8
+6,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro SRSF3Neutro,0.8
+10,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro TRA2ANeutro SF3BTV1Neutro SRSF10Neutro SRM160Neutro U6Neutro,0.8
+10,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro TRA2ANeutro SF3BTV1Neutro SRSF10Neutro SRM160Neutro U2Neutro,0.8
+12,0,SRSF1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro nSR100Neutro TRA2ANeutro SF3BTV1Neutro SRSF10Neutro SRM160Neutro SRFSF9Neutro SRSF4Neutro MAGOHNeutro,0.8
+6,0,RBM45Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro nSR100Neutro,0.8
+7,0,RBM45Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro nSR100Neutro TRA2ANeutro,0.8
+3,0,nSR100Neutro CA150Neutro ESRP1Neutro,0.8
+9,0,nSR100Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM45Neutro RBM17Neutro TRA2ANeutro FBP11Neutro U1Neutro,0.8
+11,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro,0.8
+12,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro,0.8
+13,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro,0.8
+14,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro,0.8
+15,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro,0.8
+17,0,RBM17Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro,0.8
+14,0,SRSF6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro,0.8
+15,0,SRSF6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro SRSF10Neutro,0.8
+16,0,SRSF6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro SRSF10Neutro U12Neutro,0.8
+17,0,SRSF6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro SRSF10Neutro U12Neutro SKIPNeutro,0.8
+18,0,SRSF6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro SRSF10Neutro U12Neutro SKIPNeutro SRSF4Neutro,0.8
+3,0,CUGBPNeutro CA150Neutro ESRP1Neutro,0.8
+4,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro,0.8
+5,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro,0.8
+6,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro,0.8
+7,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro U4Neutro,0.8
+8,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro U4Neutro SRSF10Neutro,0.8
+9,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro U4Neutro SRSF10Neutro RBM3Neutro,0.8
+10,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro U4Neutro SRSF10Neutro RBM3Neutro RBM22Neutro,0.8
+11,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro U4Neutro SRSF10Neutro RBM3Neutro RBM22Neutro FBP11Neutro,0.8
+12,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro U4Neutro SRSF10Neutro RBM3Neutro RBM22Neutro FBP11Neutro UA2F2Neutro,0.8
+13,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro U4Neutro SRSF10Neutro RBM3Neutro RBM22Neutro FBP11Neutro UA2F2Neutro U12Neutro,0.8
+14,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro U4Neutro SRSF10Neutro RBM3Neutro RBM22Neutro FBP11Neutro UA2F2Neutro U12Neutro ESRP2Neutro,0.8
+15,0,CUGBPNeutro CA150Neutro ESRP1Neutro SRSF6Neutro SRSF3Neutro TRA2BNeutro U4Neutro SRSF10Neutro RBM3Neutro RBM22Neutro FBP11Neutro UA2F2Neutro U12Neutro ESRP2Neutro SF3BTV2Neutro,0.8
+8,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro,0.8
+13,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro TRA2BNeutro U4Neutro U2AF1Neutro,0.8
+13,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro TRA2BNeutro U4Neutro SRSF10Neutro,0.8
+13,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro TRA2BNeutro U4Neutro UA2F2Neutro,0.8
+13,0,SC35Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro RBM45Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro TRA2BNeutro U4Neutro SRFSF9Neutro,0.8
+14,0,TRA2ANeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro,0.8
+15,0,TRA2ANeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro NOVA1Neutro,0.8
+16,0,TRA2ANeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro NOVA1Neutro SRSF5Neutro,0.8
+17,0,TRA2ANeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro NOVA1Neutro SRSF5Neutro FBP11Neutro,0.8
+20,0,TRA2ANeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro NOVA1Neutro SRSF5Neutro FBP11Neutro SAM68TV1Neutro ESRP2Neutro U1Neutro,0.8
+20,0,TRA2ANeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro NOVA1Neutro SRSF5Neutro FBP11Neutro SAM68TV1Neutro ESRP2Neutro SRSF4Neutro,0.8
+20,0,TRA2ANeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro NOVA1Neutro SRSF5Neutro FBP11Neutro SAM68TV1Neutro ESRP2Neutro MAGOHNeutro,0.8
+14,0,TRA2BNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro U5Neutro U4Neutro TIA1Neutro,0.8
+15,0,TRA2BNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro,0.8
+16,0,TRA2BNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro,0.8
+17,0,TRA2BNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro,0.8
+18,0,TRA2BNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro,0.8
+19,0,TRA2BNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro ESRP2Neutro,0.8
+20,0,TRA2BNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro ESRP2Neutro U1Neutro,0.8
+21,0,TRA2BNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro ESRP2Neutro U1Neutro MAGOHNeutro,0.8
+11,0,U5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro,0.8
+12,0,U5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro,0.8
+13,0,U5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro,0.8
+14,0,U5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro SND1Neutro,0.8
+15,0,U5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro SND1Neutro SRSF10Neutro,0.8
+16,0,U5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro SND1Neutro SRSF10Neutro U12Neutro,0.8
+17,0,U5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro SND1Neutro SRSF10Neutro U12Neutro SKIPNeutro,0.8
+18,0,U5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro SND1Neutro SRSF10Neutro U12Neutro SKIPNeutro MAGOHNeutro,0.8
+10,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro,0.8
+11,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro,0.8
+12,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro,0.8
+13,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro,0.8
+14,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro RBM3Neutro,0.8
+15,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro RBM3Neutro SRFSF9Neutro,0.8
+16,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro RBM3Neutro SRFSF9Neutro SAM68TV1Neutro,0.8
+17,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro RBM3Neutro SRFSF9Neutro SAM68TV1Neutro U12Neutro,0.8
+18,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro RBM3Neutro SRFSF9Neutro SAM68TV1Neutro U12Neutro ESRP2Neutro,0.8
+19,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro RBM3Neutro SRFSF9Neutro SAM68TV1Neutro U12Neutro ESRP2Neutro U1Neutro,0.8
+20,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro RBM3Neutro SRFSF9Neutro SAM68TV1Neutro U12Neutro ESRP2Neutro U1Neutro SRSF4Neutro,0.8
+21,0,SF3BTV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF3Neutro TRA2BNeutro U5Neutro U4Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro RBM3Neutro SRFSF9Neutro SAM68TV1Neutro U12Neutro ESRP2Neutro U1Neutro SRSF4Neutro MAGOHNeutro,0.8
+11,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro,0.8
+12,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro,0.8
+13,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro,0.8
+15,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro SND1Neutro,0.8
+15,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro SRSF10Neutro,0.8
+15,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro RBM3Neutro,0.8
+16,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro RBM22Neutro U2Neutro,0.8
+16,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro RBM22Neutro SAM68TV1Neutro,0.8
+16,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro RBM22Neutro ESRP2Neutro,0.8
+16,0,TIA1Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SF3BTV1Neutro RBM22Neutro SKIPNeutro,0.8
+11,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro,0.8
+12,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro,0.8
+13,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro,0.8
+14,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro SND1Neutro,0.8
+15,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro SND1Neutro SRSF10Neutro,0.8
+16,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro SND1Neutro SRSF10Neutro FBP11Neutro,0.8
+17,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro SND1Neutro SRSF10Neutro FBP11Neutro SRM160Neutro,0.8
+18,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro SND1Neutro SRSF10Neutro FBP11Neutro SRM160Neutro PRP8Neutro,0.8
+19,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro SND1Neutro SRSF10Neutro FBP11Neutro SRM160Neutro PRP8Neutro SRFSF9Neutro,0.8
+20,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro SND1Neutro SRSF10Neutro FBP11Neutro SRM160Neutro PRP8Neutro SRFSF9Neutro SAM68TV1Neutro,0.8
+21,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro SND1Neutro SRSF10Neutro FBP11Neutro SRM160Neutro PRP8Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro,0.8
+22,0,NOVA1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro SRSF5Neutro SND1Neutro SRSF10Neutro FBP11Neutro SRM160Neutro PRP8Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro MAGOHNeutro,0.8
+15,0,SRSF5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro,0.8
+16,0,SRSF5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SND1Neutro,0.8
+17,0,SRSF5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SND1Neutro RBM3Neutro,0.8
+18,0,SRSF5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SND1Neutro RBM3Neutro RBM22Neutro,0.8
+22,0,SRSF5Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SND1Neutro RBM3Neutro RBM22Neutro SAM68TV1Neutro ESRP2Neutro U1Neutro MAGOHNeutro,0.8
+11,0,SND1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro,0.8
+12,0,SND1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro,0.8
+13,0,SND1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro,0.8
+14,0,SND1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro RBM3Neutro,0.8
+15,0,SND1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro RBM3Neutro SRM160Neutro,0.8
+16,0,SND1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro RBM3Neutro SRM160Neutro U12Neutro,0.8
+17,0,SND1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro RBM3Neutro SRM160Neutro U12Neutro SKIPNeutro,0.8
+18,0,SND1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro U4Neutro RBM3Neutro SRM160Neutro U12Neutro SKIPNeutro MAGOHNeutro,0.8
+7,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro,0.8
+8,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro,0.8
+9,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro,0.8
+10,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro,0.8
+11,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro,0.8
+12,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro PSFNeutro,0.8
+13,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro PSFNeutro PRP8Neutro,0.8
+14,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro PSFNeutro PRP8Neutro SRFSF9Neutro,0.8
+15,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro PSFNeutro PRP8Neutro SRFSF9Neutro SAM68TV1Neutro,0.8
+16,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro PSFNeutro PRP8Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro,0.8
+17,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro PSFNeutro PRP8Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro U1Neutro,0.8
+18,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro PSFNeutro PRP8Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro U1Neutro MAGOHNeutro,0.8
+19,0,SRSF10Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro PSFNeutro PRP8Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro U1Neutro MAGOHNeutro SF3BTV2Neutro,0.8
+7,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro,0.8
+8,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro,0.8
+9,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro,0.8
+10,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro,0.8
+11,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro,0.8
+12,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro,0.8
+13,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro SND1Neutro,0.8
+14,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro SND1Neutro SRSF10Neutro,0.8
+15,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro SND1Neutro SRSF10Neutro SRM160Neutro,0.8
+16,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro SND1Neutro SRSF10Neutro SRM160Neutro U2Neutro,0.8
+17,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro SND1Neutro SRSF10Neutro SRM160Neutro U2Neutro PSFNeutro,0.8
+18,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro SND1Neutro SRSF10Neutro SRM160Neutro U2Neutro PSFNeutro SRFSF9Neutro,0.8
+19,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro SND1Neutro SRSF10Neutro SRM160Neutro U2Neutro PSFNeutro SRFSF9Neutro ESRP2Neutro,0.8
+20,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro SND1Neutro SRSF10Neutro SRM160Neutro U2Neutro PSFNeutro SRFSF9Neutro ESRP2Neutro SRSF4Neutro,0.8
+21,0,RBM3Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U4Neutro U2AF1Neutro NOVA1Neutro SND1Neutro SRSF10Neutro SRM160Neutro U2Neutro PSFNeutro SRFSF9Neutro ESRP2Neutro SRSF4Neutro MAGOHNeutro,0.8
+8,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro,0.8
+9,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro SRSF3Neutro,0.8
+10,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U4Neutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro SND1Neutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro SRSF10Neutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro RBM3Neutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro SRM160Neutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro U6Neutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro U2Neutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro PSFNeutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro SRFSF9Neutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro SRSF4Neutro,0.8
+11,0,RBM22Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U2AF1Neutro MAGOHNeutro,0.8
+8,0,FBP11Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro,0.8
+9,0,FBP11Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro CUGBPNeutro,0.8
+10,0,FBP11Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro CUGBPNeutro U4Neutro,0.8
+12,0,FBP11Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro CUGBPNeutro U4Neutro SF3BTV1Neutro SRSF10Neutro,0.8
+13,0,FBP11Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro CUGBPNeutro U4Neutro SF3BTV1Neutro U1Neutro MAGOHNeutro,0.8
+11,0,U6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro,0.8
+12,0,U6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro,0.8
+13,0,U6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro SF3BTV1Neutro,0.8
+14,0,U6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro SF3BTV1Neutro U2AF1Neutro,0.8
+15,0,U6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro,0.8
+16,0,U6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro,0.8
+17,0,U6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro FBP11Neutro,0.8
+18,0,U6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro FBP11Neutro U12Neutro,0.8
+19,0,U6Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro FBP11Neutro U12Neutro U1Neutro,0.8
+7,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro,0.8
+8,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro,0.8
+9,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro,0.8
+10,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro,0.8
+11,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro,0.8
+12,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro SF3BTV1Neutro,0.8
+13,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro,0.8
+14,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro,0.8
+15,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro,0.8
+16,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro SRM160Neutro,0.8
+17,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro SRM160Neutro U12Neutro,0.8
+18,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro SRM160Neutro U12Neutro ESRP2Neutro,0.8
+19,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro SRM160Neutro U12Neutro ESRP2Neutro U1Neutro,0.8
+20,0,U2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro SRSF3Neutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SRSF10Neutro RBM3Neutro SRM160Neutro U12Neutro ESRP2Neutro U1Neutro SRSF4Neutro,0.8
+16,0,UA2F2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro,0.8
+17,0,UA2F2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro,0.8
+18,0,UA2F2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro ESRP2Neutro,0.8
+19,0,UA2F2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro ESRP2Neutro U1Neutro,0.8
+20,0,UA2F2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro ESRP2Neutro U1Neutro SF3BTV2Neutro,0.8
+9,0,PSFNeutro CA150Neutro RAVER1Neutro U11Neutro nSR100Neutro RBM17Neutro SRSF6Neutro SRSF3Neutro SND1Neutro,0.8
+10,0,PSFNeutro CA150Neutro RAVER1Neutro U11Neutro nSR100Neutro RBM17Neutro SRSF6Neutro SRSF3Neutro SND1Neutro SRSF10Neutro,0.8
+11,0,PSFNeutro CA150Neutro RAVER1Neutro U11Neutro nSR100Neutro RBM17Neutro SRSF6Neutro SRSF3Neutro SND1Neutro SRSF10Neutro U12Neutro,0.8
+8,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro,0.8
+8,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF3Neutro,0.8
+10,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF5Neutro,0.8
+10,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SND1Neutro,0.8
+13,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF10Neutro RBM3Neutro SRM160Neutro U2Neutro,0.8
+13,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF10Neutro RBM3Neutro SRM160Neutro PSFNeutro,0.8
+14,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF10Neutro RBM3Neutro SRM160Neutro SRFSF9Neutro SKIPNeutro,0.8
+14,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF10Neutro RBM3Neutro SRM160Neutro SRFSF9Neutro SRSF4Neutro,0.8
+14,0,PRP8Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro TRA2ANeutro U4Neutro SRSF10Neutro RBM3Neutro SRM160Neutro SRFSF9Neutro MAGOHNeutro,0.8
+16,0,SRFSF9Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro,0.8
+17,0,SRFSF9Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro,0.8
+18,0,SRFSF9Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro UA2F2Neutro,0.8
+21,0,SRFSF9Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro SRSF5Neutro UA2F2Neutro SAM68TV1Neutro ESRP2Neutro U1Neutro,0.8
+4,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro,0.8
+5,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro,0.8
+6,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro,0.8
+7,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro,0.8
+8,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro,0.8
+9,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro,0.8
+10,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro,0.8
+11,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro,0.8
+12,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro,0.8
+13,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro,0.8
+14,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro,0.8
+15,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro,0.8
+16,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro,0.8
+17,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro SRFSF9Neutro,0.8
+18,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro SRFSF9Neutro U12Neutro,0.8
+19,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro SRFSF9Neutro U12Neutro ESRP2Neutro,0.8
+20,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro SRFSF9Neutro U12Neutro ESRP2Neutro U1Neutro,0.8
+21,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro SRFSF9Neutro U12Neutro ESRP2Neutro U1Neutro SKIPNeutro,0.8
+22,0,SAM68TV1Neutro CA150Neutro ESRP1Neutro RAVER1Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro U2AF1Neutro SRSF5Neutro SRSF10Neutro SRFSF9Neutro U12Neutro ESRP2Neutro U1Neutro SKIPNeutro SRSF4Neutro,0.8
+15,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro,0.8
+16,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro RBM3Neutro,0.8
+17,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro RBM3Neutro UA2F2Neutro,0.8
+18,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro,0.8
+21,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro U1Neutro,0.8
+21,0,U12Neutro CA150Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro RBM17Neutro SRSF6Neutro CUGBPNeutro SRSF3Neutro TRA2ANeutro TRA2BNeutro U5Neutro U4Neutro TIA1Neutro RBM3Neutro UA2F2Neutro SRFSF9Neutro SAM68TV1Neutro ESRP2Neutro SKIPNeutro,0.8
+7,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro,0.8
+8,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro,0.8
+9,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro,0.8
+10,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro,0.8
+11,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro,0.8
+12,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro,0.8
+13,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro,0.8
+14,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SND1Neutro,0.8
+15,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SND1Neutro RBM3Neutro,0.8
+16,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SND1Neutro RBM3Neutro SRM160Neutro,0.8
+17,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SND1Neutro RBM3Neutro SRM160Neutro U2Neutro,0.8
+18,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SND1Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro,0.8
+19,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SND1Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro SRFSF9Neutro,0.8
+20,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SND1Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro SRFSF9Neutro U1Neutro,0.8
+21,0,ESRP2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro SRSF6Neutro TRA2ANeutro U5Neutro U4Neutro SF3BTV1Neutro U2AF1Neutro SND1Neutro RBM3Neutro SRM160Neutro U2Neutro UA2F2Neutro SRFSF9Neutro U1Neutro SRSF4Neutro,0.8
+7,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro,0.8
+8,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro U4Neutro,0.8
+9,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro U4Neutro U2AF1Neutro,0.8
+10,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro U4Neutro U2AF1Neutro RBM3Neutro,0.8
+11,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro U4Neutro U2AF1Neutro RBM3Neutro SRM160Neutro,0.8
+12,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro U4Neutro U2AF1Neutro RBM3Neutro SRM160Neutro U6Neutro,0.8
+13,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro U4Neutro U2AF1Neutro RBM3Neutro SRM160Neutro U6Neutro U2Neutro,0.8
+14,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro U4Neutro U2AF1Neutro RBM3Neutro SRM160Neutro U6Neutro U2Neutro UA2F2Neutro,0.8
+15,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro U4Neutro U2AF1Neutro RBM3Neutro SRM160Neutro U6Neutro U2Neutro UA2F2Neutro SAM68TV1Neutro,0.8
+16,0,SKIPNeutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro U4Neutro U2AF1Neutro RBM3Neutro SRM160Neutro U6Neutro U2Neutro UA2F2Neutro SAM68TV1Neutro U12Neutro,0.8
+9,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro SRSF3Neutro,0.8
+11,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U5Neutro SND1Neutro,0.8
+11,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U5Neutro SRM160Neutro,0.8
+11,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U5Neutro U2Neutro,0.8
+11,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U5Neutro PSFNeutro,0.8
+12,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U5Neutro SRFSF9Neutro SRSF4Neutro,0.8
+12,0,SF3BTV2Neutro CA150Neutro ESRP1Neutro RAVER1Neutro U11Neutro SRSF1Neutro nSR100Neutro CUGBPNeutro TRA2ANeutro U5Neutro SRFSF9Neutro MAGOHNeutro,0.8

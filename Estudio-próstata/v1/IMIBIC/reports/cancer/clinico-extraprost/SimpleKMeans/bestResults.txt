@@ -1,0 +1,3 @@
+Number of atts: 3
+Attributes: SRSF3 TRA2B SC35 
+Average AUC: 0.7571428571428571

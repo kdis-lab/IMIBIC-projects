@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 7
+Attributes: RBM3 SAM68TV1 TIA1 SF3BTV2 PSF U6 SND1 
+Average AUC: 0.9173669467787114
+
+
+Seed: 2
+Number of atts: 7
+Attributes: RBM3 SAM68TV1 TIA1 SF3BTV2 PSF U6 SND1 
+Average AUC: 0.9173669467787114
+
+
+Seed: 3
+Number of atts: 7
+Attributes: RBM3 SAM68TV1 TIA1 SF3BTV2 PSF U6 SND1 
+Average AUC: 0.9173669467787114
+
+

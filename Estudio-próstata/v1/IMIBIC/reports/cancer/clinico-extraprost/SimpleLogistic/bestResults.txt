@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 7
+Attributes: nSR100 U12 U4 PSF TRA2B RBM3 RBM22 
+Average AUC: 0.8392857142857143
+
+
+Seed: 2
+Number of atts: 6
+Attributes: U11 U2 PSF U6 U6ATAC SRSF3 
+Average AUC: 0.8482142857142858
+
+
+Seed: 3
+Number of atts: 8
+Attributes: SRSF4 FBP11 U1 SRSF9 PRP8 RBM17 SAM68TV1 U5 
+Average AUC: 0.8392857142857143
+
+

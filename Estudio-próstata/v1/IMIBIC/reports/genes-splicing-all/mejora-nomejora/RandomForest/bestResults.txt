@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 5
+Attributes: U2 U6ATAC RBM22 NOVA1 SC35 
+Average AUC: 1.0
+
+
+Seed: 2
+Number of atts: 3
+Attributes: RBM22 NOVA1 SRSF9 
+Average AUC: 1.0
+
+
+Seed: 3
+Number of atts: 8
+Attributes: U2AF1 SRSF9 U2 U6ATAC RAVER1 SF3BTV1 NOVA1 ESRP2 
+Average AUC: 0.9894736842105264
+
+

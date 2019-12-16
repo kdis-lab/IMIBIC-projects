@@ -1,0 +1,18 @@
+leave one out cross validation
+
+Seed: 1
+Number of atts: 4
+Attributes: CUGBP RAVER1 TRA2A RBM45
+Average AUC: 0.9953125
+
+Seed: 2
+Number of atts: 3
+Attributes: NOVA1 RAVER1 TRA2A
+Average AUC: 0.9734375
+
+Seed 3:
+Number of atts: 5
+Attributes: ESRP2 RBM45 RAVER1 TRA2A SRSF4
+Average AUC: 0.9734375
+
+

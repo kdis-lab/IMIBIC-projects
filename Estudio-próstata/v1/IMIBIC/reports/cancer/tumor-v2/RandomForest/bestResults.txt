@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 7
+Attributes: PTB nSR100 MAGOH SRM160 U12 U4ATAC U5 
+Average AUC: 1.0
+
+
+Seed: 2
+Number of atts: 7
+Attributes: CA150 SRSF4 nSR100 SRM160 U12 U4ATAC U2 
+Average AUC: 1.0
+
+
+Seed: 3
+Number of atts: 7
+Attributes: SND1 PTB NOVA1 U11 SRM160 U4ATAC U12 
+Average AUC: 1.0
+
+

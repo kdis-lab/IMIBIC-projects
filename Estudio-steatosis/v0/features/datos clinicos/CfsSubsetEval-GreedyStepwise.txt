@@ -1,0 +1,50 @@
+
+
+=== Attribute selection 10 fold cross-validation (stratified), seed: 987328938 ===
+
+number of folds (%)  attribute
+           0(  0 %)     1 EDAD
+           2( 20 %)     2 DIABETES
+           0(  0 %)     3 PESO
+           0(  0 %)     4 TALLA
+           0(  0 %)     5 IMC
+           0(  0 %)     6 Cintura
+           0(  0 %)     7 Cadera
+           0(  0 %)     8 ICC
+           0(  0 %)     9 Hb-A1
+          10(100 %)    10 HOMA-IR
+           0(  0 %)    11 GLUCOSA
+           0(  0 %)    12 UREA
+           0(  0 %)    13 CREATININIO
+           0(  0 %)    14 BILIRRUBINA
+           0(  0 %)    15 BD
+           0(  0 %)    16 BI
+           0(  0 %)    17 Filtracion-glomerular
+           0(  0 %)    18 AST
+           0(  0 %)    19 ALT
+           0(  0 %)    20 GGT
+           0(  0 %)    21 FA
+           0(  0 %)    22 Colesterol
+           0(  0 %)    23 HDL
+           0(  0 %)    24 LDL
+           0(  0 %)    25 Trigliceridos
+           0(  0 %)    26 Proteinas-T
+           0(  0 %)    27 Albumina
+           0(  0 %)    28 Haptoglobina
+           0(  0 %)    29 Proteina-C-Reactiva
+           0(  0 %)    30 Ceruloplasmina
+           8( 80 %)    31 INSULINA-BASAL
+           0(  0 %)    32 TSH
+           0(  0 %)    33 TIROXINA
+           0(  0 %)    34 Hierro
+           0(  0 %)    35 Ferritina
+           0(  0 %)    36 Transferrina
+           0(  0 %)    37 IST
+           7( 70 %)    38 HbsAgHBcAc
+           0(  0 %)    39 Cobre
+           0(  0 %)    40 HEMATIES
+           1( 10 %)    41 Hb
+           0(  0 %)    42 Hcto
+           0(  0 %)    43 VCM
+           0(  0 %)    44 Plaquetas
+           3( 30 %)    45 Protrombina

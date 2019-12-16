@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 4
+Attributes: FBP11 ESRP1 CUGBP SF3BTV1 
+Average AUC: 0.8875000000000001
+
+
+Seed: 2
+Number of atts: 4
+Attributes: FBP11 ESRP1 CUGBP SF3BTV1 
+Average AUC: 0.8875000000000001
+
+
+Seed: 3
+Number of atts: 4
+Attributes: FBP11 ESRP1 CUGBP SF3BTV1 
+Average AUC: 0.8875000000000001
+
+

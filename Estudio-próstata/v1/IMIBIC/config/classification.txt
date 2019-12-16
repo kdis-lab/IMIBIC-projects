@@ -1,0 +1,5 @@
+weka.classifiers.functions.SimpleLogistic
+//weka.classifiers.functions.SMO
+weka.classifiers.lazy.IBk
+//weka.classifiers.trees.J48
+weka.classifiers.trees.RandomForest

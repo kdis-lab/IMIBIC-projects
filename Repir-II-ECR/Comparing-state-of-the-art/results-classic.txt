@@ -1,0 +1,130 @@
+
+R version 3.4.4 (2018-03-15) -- "Someone to Lean On"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> library(caret)
+Loading required package: lattice
+Loading required package: ggplot2
+> source("utils.R")
+> 
+> #packages to install: elasticnet, e1071, mboost, randomForest, xgboost, RSNNS, kernlab
+> 
+> # SE TRATA DE PREDECIR EL SIGUIENTE VALOR DE FG. POR ESO ANTES DE TODO EL DATASET HA DE TRANSFORMARSE PARA QUE 
+> # POR CADA REGISTRO SE TENGA EL SIGUIENTE VALOR DE FG Y NO EL ALTUAL, YA QUE EL ACTUAL SE PUEDE CALCULAR DIRECTAMENTE A PARTIR DE LAS COVARIABLES
+> 
+> # Se siguio el proceso de CV explicado aqui, llamado forward chaining
+> #https://towardsdatascience.com/time-series-nested-cross-validation-76adba623eb9
+> 
+> # YA EN ESTE DATASET NO HAY NINGUN PACIENTE CON 1 SOLA VISITA
+> dataset <- read.csv("datasets/datos-demograficos-visitas-tratamientos-missing-imputation-mean-average_before_after_values-allnumerics.csv", header = T, na.strings = "")
+> 
+> dataset <- transform_dataset(dataset)
+> 
+> original_numeric <- read.csv("datasets/original_columns_numeric.csv", header = T, na.strings = "")
+> 
+> original_numeric <- c(as.character(original_numeric$Column), "next_Filtrado_glomerular")
+> 
+> nmax = max(table(dataset$Id))
+> 
+> # LASSO, Bagged CART, Boosted Generalized Linear Model, Random Forest, eXtreme Gradient Boosting, k-Nearest Neighbors, Multi-Layer Perceptron, Support Vector Machines with Linear Kernel
+> traversals <- c("lasso", "treebag", "glmboost", "rf", "xgbLinear", "knn", "mlp", "svmLinear")
+> 
+> results = list(lasso=c(), treebag = c(), glmboost = c(), rf= c(), xgbLinear= c(), knn= c(), mlp= c(), svmLinear= c())
+> 
+> for(nvisit in 1:(nmax-1)){
++   
++   data.split <- split_train_test(dataset, nvisit)
++   
++   dta_train <-data.split[["train"]]
++   dta_test <-data.split[["test"]]
++   
++   preProcValues <- preProcess(dta_train[,original_numeric], method = c("center", "scale"))
++   
++   dta_train[,original_numeric] <- predict(preProcValues, dta_train[,original_numeric])
++   dta_test[,original_numeric] <- predict(preProcValues, dta_test[,original_numeric])
++   
++   dta_train$Id <- NULL
++   dta_test$Id <- NULL
++   
++   form <- as.formula("next_Filtrado_glomerular ~ .")
++   
++   for(alg in traversals){
++     
++     # The id att is removed
++     modelFit <- train(form, data = dta_train[,],
++                     method= alg,
++                     maximize = FALSE)
++   
++     p <- predict(modelFit, newdata = dta_test[,-ncol(dta_test)])
++   
++     results[[alg]] <- c(results[[alg]], RMSE(p, dta_test$next_Filtrado_glomerular))
++   }
++ }
+There were 50 or more warnings (use warnings() to see the first 50)
+> 
+> for(alg in traversals){
++  
++   print(alg)
++   print(paste0("Mean: ", mean(results[[alg]])))
++   print(paste0("Std: ", sd(results[[alg]])))
++   
++   print("***********************") 
++   
++ }
+[1] "lasso"
+[1] "Mean: 0.442644319101847"
+[1] "Std: 0.173834606862679"
+[1] "***********************"
+[1] "treebag"
+[1] "Mean: 0.467634286380753"
+[1] "Std: 0.158282552522058"
+[1] "***********************"
+[1] "glmboost"
+[1] "Mean: 0.430665829424166"
+[1] "Std: 0.156062672093209"
+[1] "***********************"
+[1] "rf"
+[1] "Mean: 0.411120026196023"
+[1] "Std: 0.158186554117811"
+[1] "***********************"
+[1] "xgbLinear"
+[1] "Mean: 0.432235095360294"
+[1] "Std: 0.168679706779193"
+[1] "***********************"
+[1] "knn"
+[1] "Mean: 0.595372927904974"
+[1] "Std: 0.0994638063542001"
+[1] "***********************"
+[1] "mlp"
+[1] "Mean: 0.490664198461618"
+[1] "Std: 0.12852142585089"
+[1] "***********************"
+[1] "svmLinear"
+[1] "Mean: 0.43574360563152"
+[1] "Std: 0.148386536222429"
+[1] "***********************"
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 

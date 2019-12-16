@@ -1,0 +1,50 @@
+
+
+=== Attribute selection 10 fold cross-validation (stratified), seed: 987328938 ===
+
+average merit      average rank  attribute
+ 0.054 +- 0.057      0.1 +- 0.16    31 INSULINA-BASAL
+ 0.05  +- 0.064      0.2 +- 0.09    10 HOMA-IR
+ 0.014 +- 0.054      0.3 +- 0       38 HbsAgHBcAc
+ 0.003 +- 0.052      0.4 +- 0        2 DIABETES
+ 0     +- 0          0.7 +- 0       18 AST
+ 0     +- 0          0.8 +- 0       17 Filtracion-glomerular
+ 0     +- 0          0.8 +- 0       14 BILIRRUBINA
+ 0     +- 0          0.9 +- 0       13 CREATININIO
+ 0     +- 0          0.9 +- 0       15 BD
+ 0     +- 0          1   +- 0       16 BI
+ 0.012 +- 0.135      1   +- 0       45 Protrombina
+ 0     +- 0          1.1 +- 0       19 ALT
+ 0     +- 0          1.2 +- 0       12 UREA
+ 0     +- 0          1.3 +- 0        3 PESO
+ 0     +- 0          1.5 +- 0        4 TALLA
+ 0     +- 0          1.6 +- 0       11 GLUCOSA
+ 0     +- 0          1.8 +- 0        5 IMC
+ 0     +- 0          1.9 +- 0       21 FA
+ 0     +- 0          1.9 +- 0        6 Cintura
+ 0     +- 0          1.9 +- 0        7 Cadera
+ 0     +- 0          2   +- 0        8 ICC
+ 0     +- 0          2.2 +- 0        9 Hb-A1
+ 0     +- 0          2.3 +- 0       20 GGT
+ 0     +- 0          2.4 +- 0       23 HDL
+ 0     +- 0          2.5 +- 0       22 Colesterol
+ 0     +- 0          2.6 +- 0       37 IST
+ 0     +- 0          2.7 +- 0       36 Transferrina
+ 0.004 +- 0.108      2.8 +- 0       41 Hb
+ 0     +- 0          2.9 +- 0       34 Hierro
+ 0     +- 0          2.9 +- 0       39 Cobre
+ 0     +- 0          3   +- 0       40 HEMATIES
+ 0     +- 0          3.2 +- 0       42 Hcto
+ 0     +- 0          3.3 +- 0       43 VCM
+ 0     +- 0          3.3 +- 0       35 Ferritina
+ 0     +- 0          3.5 +- 0       33 TIROXINA
+ 0     +- 0          3.5 +- 0       44 Plaquetas
+ 0     +- 0          3.7 +- 0       25 Trigliceridos
+ 0     +- 0          3.8 +- 0       24 LDL
+ 0     +- 0          3.9 +- 0       32 TSH
+ 0     +- 0          4   +- 0       26 Proteinas-T
+ 0     +- 0          4.1 +- 0       27 Albumina
+ 0     +- 0          4.2 +- 0       28 Haptoglobina
+ 0     +- 0          4.3 +- 0       29 Proteina-C-Reactiva
+ 0     +- 0          4.4 +- 0       30 Ceruloplasmina
+ 0     +- 0          4.5 +- 0        1 EDAD

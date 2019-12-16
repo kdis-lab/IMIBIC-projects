@@ -1,0 +1,15 @@
+Seed 1:
+Number of atts: 2
+Attributes: U6 TRA2A 
+Average AUC: 0.8663194444444444
+
+Seed 2:
+Number of atts: 2
+Attributes: U6 TRA2A 
+Average AUC: 0.8663194444444444
+
+Seed 3:
+Number of atts: 2
+Attributes: U6 TRA2A 
+Average AUC: 0.8663194444444444
+

@@ -1,0 +1,48 @@
+
+
+=== Attribute selection 42 fold cross-validation (stratified), seed: 1 ===
+
+number of folds (%)  attribute
+           0(  0 %)     1 Ca150
+          42(100 %)     2 Celf4
+           0(  0 %)     3 CUGBP
+           0(  0 %)     4 ESRP1
+           1(  2 %)     5 ESRP2
+           0(  0 %)     6 FBP11
+           0(  0 %)     7 Magoh
+          42(100 %)     8 Nova1
+           0(  0 %)     9 nSR100
+           0(  0 %)    10 PRP8
+           0(  0 %)    11 PSF
+           0(  0 %)    12 PTB
+           0(  0 %)    13 Raver1
+           0(  0 %)    14 RBM17
+           0(  0 %)    15 RBM22
+           0(  0 %)    16 RBM3
+           0(  0 %)    17 RBM45
+           0(  0 %)    18 Sam68tv1
+           0(  0 %)    19 Sc35
+           0(  0 %)    20 Sf3btv1
+           0(  0 %)    21 SF3btv2
+           0(  0 %)    22 SKIP
+           0(  0 %)    23 SND1
+           0(  0 %)    24 SRM160
+           0(  0 %)    25 SRSF1
+           0(  0 %)    26 SRSF3
+           0(  0 %)    27 SRSF4
+           0(  0 %)    28 SRSF5
+           0(  0 %)    29 SRSF6
+           0(  0 %)    30 SRSF9
+           0(  0 %)    31 SRSF10
+           0(  0 %)    32 Tia1
+           0(  0 %)    33 Tra2A
+           0(  0 %)    34 Tra2B
+           0(  0 %)    35 U1
+           6( 14 %)    36 U2
+           0(  0 %)    37 U4
+           0(  0 %)    38 U5
+           0(  0 %)    39 U6
+           0(  0 %)    40 U11
+           0(  0 %)    41 U12
+           0(  0 %)    42 U2af2
+          10( 24 %)    43 U6atac

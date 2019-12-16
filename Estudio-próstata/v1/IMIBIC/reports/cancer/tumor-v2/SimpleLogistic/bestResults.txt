@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 3
+Attributes: SRM160 U12 U4ATAC 
+Average AUC: 1.0
+
+
+Seed: 2
+Number of atts: 3
+Attributes: SRM160 U12 U4ATAC 
+Average AUC: 1.0
+
+
+Seed: 3
+Number of atts: 3
+Attributes: RBM3 U12 U4ATAC 
+Average AUC: 1.0
+
+

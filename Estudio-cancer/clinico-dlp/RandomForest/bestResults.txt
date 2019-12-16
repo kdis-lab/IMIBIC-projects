@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 3
+Attributes: SAM68TV1 U6ATAC U6 
+Average AUC: 0.8773946360153255
+
+
+Seed: 2
+Number of atts: 3
+Attributes: SAM68TV1 U6ATAC U6 
+Average AUC: 0.8735632183908048
+
+
+Seed: 3
+Number of atts: 4
+Attributes: SF3BTV1 U6ATAC U6 SAM68TV1 
+Average AUC: 0.885057471264368
+
+

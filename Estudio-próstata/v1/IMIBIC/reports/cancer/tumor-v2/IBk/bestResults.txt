@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 3
+Attributes: U11 U4ATAC U12 
+Average AUC: 1.0
+
+
+Seed: 2
+Number of atts: 3
+Attributes: U11 U4ATAC U12 
+Average AUC: 1.0
+
+
+Seed: 3
+Number of atts: 3
+Attributes: U11 U4ATAC U12 
+Average AUC: 1.0
+
+

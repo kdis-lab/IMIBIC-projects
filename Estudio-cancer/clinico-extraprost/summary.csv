@@ -1,0 +1,14 @@
+Algorithm	Execution	FBP11	MAGOH	PRP8	PSF	RAVER1	RBM17	RBM22	RBM3	SAM68TV1	SC35	SRSF1	SRSF3	SRSF4	SRSF5	SRSF6	SRSF9	TRA2B	U1	U11	U12	U2	U2AF1	U2AF2	U4	U5	U6	U6ATAC	nSR100	AUC
+SimpleLogistic	1				1			1	1									1	1		1				1				1	0.839
+	2				1								1						1	1		1					1	1		0.848
+	3	1		1			1			1				1			1		1							1				0.839
+IBk	1		1		1	1			1		1				1															0.864
+	2		1		1	1			1		1				1															0.864
+	3		1		1	1			1		1				1															0.864
+RandomForest	1		1						1			1										1		1	1		1	1	1	0.911
+	2	1	1						1													1		1	1					0.916
+	3		1			1			1																		1	1	1	0.904
+HierarchicalClusterer	1		1	1		1					1					1	1					1	1							0.743
+SimpleKMeans	1										1		1					1												0.757
+
+Average		0.182	0.636	0.182	0.455	0.455	0.091	0.091	0.636	0.091	0.455	0.091	0.182	0.091	0.273	0.091	0.182	0.182	0.273	0.091	0.091	0.364	0.091	0.182	0.273	0.091	0.273	0.273	0.273

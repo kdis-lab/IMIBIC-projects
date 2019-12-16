@@ -1,0 +1,18 @@
+Seed: 1
+Number of atts: 5
+Attributes: TRA2B U6ATAC RAVER1 TRA2A ESRP2 
+Average AUC: 0.94375
+
+
+Seed: 2
+Number of atts: 5
+Attributes: TRA2B U6ATAC RAVER1 TRA2A ESRP2 
+Average AUC: 0.94375
+
+
+Seed: 3
+Number of atts: 5
+Attributes: TRA2B U6ATAC RAVER1 TRA2A ESRP2 
+Average AUC: 0.94375
+
+

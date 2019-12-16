@@ -1,0 +1,8 @@
+    CA150     CUGBP     ESRP1     ESRP2     FBP11     MAGOH     NOVA1    nSR100      PRP8       PSF       PTB    RAVER1 
+        0         0         0        39         2         0         1        77         1         3         1         2 
+    RBM17     RBM22      RBM3     RBM45 SAM68.TV1      SC35   sf3btv1   SF3BTV2      SKIP      SND1    SRM160     SRSF1 
+        0        11         0         0         3         0         3         1         5         1         0         1 
+   SRSF10     SRSF3     SRSF4     SRSF5     SRSF6     SRSF9      TIA1     TRA2A     TRA2B        U1       U11       U12 
+        0         0         0         0         0         0         0         0         1       134         0         0 
+       U2     U2AF1     U2AF2        U4    U4ATAC        U5        U6    U6ATAC 
+        1         0         1         0        29         0         0         1 
